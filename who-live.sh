@@ -26,9 +26,13 @@ do
 		echo "卓雪寅 is online， IP is $ip, MAC is $mac";;
 		8[Cc]:89:[Aa]5:3[Bb]:59:[Cc]1)
 		echo "万季   is online， IP is $ip, MAC is $mac";;
+		5[Cc]:33:8[Ee]:60:4[Bb]:4[Dd]) 
+		echo "张东升 is online， IP is $ip, MAC is $mac";;
+		8[Cc]:89:[Aa]5:39:5[Cc]:99)
+		echo "朱雪梅 is online， IP is $ip, MAC is $mac";;
 		8[Cc]:89:[Aa]5:75:[Aa]1:12) 
 		echo "疑似老方 is online， IP is $ip, MAC is $mac";;
 	esac
 done	
 
-rm -rf /tmp/mac-arp.$$ /tmp/mac-ip.$$ /tmp/mac.$$
+rm -rf /tmp/arp.$$ /tmp/mac-ip.$$ /tmp/mac.$$
