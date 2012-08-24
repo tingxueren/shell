@@ -1,0 +1,10 @@
+B:0
+M:500
+D:10/24/97:inital deposit:1000
+c:10/25/97:credit card:101:100
+w:10/30/97:gas:21.43
+w:10/30/97:lunch:11.34
+c:11/02/97:toner:41.45
+C:11/04/97:car payment:347.23
+D:11/06/97:divident:687.34
+W:11/10/97:emergency cach:200

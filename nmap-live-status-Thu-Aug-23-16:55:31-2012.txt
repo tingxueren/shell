@@ -1,0 +1,2020 @@
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 16:55 CST
+Nmap scan report for 192.168.149.1
+Host is up (0.0016s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE    VERSION
+1035/tcp open  msrpc      Microsoft Windows RPC
+2100/tcp open  tcpwrapped
+2869/tcp open  http       Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+3306/tcp open  mysql      MySQL (unauthorized)
+5357/tcp open  http       Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_html-title: Service Unavailable
+6112/tcp open  dtspc?
+Service Info: OS: Windows
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 69.74 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 16:56 CST
+Nmap scan report for 192.168.149.7
+Host is up (0.0020s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 5.9 (protocol 2.0)
+| ssh-hostkey: 1024 c7:b6:c9:b5:21:27:93:4d:71:03:ae:c5:7a:89:d5:36 (DSA)
+|_2048 7e:43:c0:1c:66:04:d6:33:a8:66:5d:f0:94:82:97:24 (RSA)
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 5.22 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 16:56 CST
+Nmap scan report for 192.168.149.10
+Host is up (0.0023s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE     VERSION
+135/tcp  open  msrpc       Microsoft Windows RPC
+139/tcp  open  netbios-ssn
+445/tcp  open  netbios-ssn
+5357/tcp open  http        Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_html-title: Service Unavailable
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: ZHUSHENGDAIN-PC, NetBIOS user: <unknown>, NetBIOS MAC: 8c:89:a5:39:5c:9a
+| smb-os-discovery:  
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   Name: WORKGROUP\ZHUSHENGDAIN-PC
+|_  System time: 2012-08-23 16:56:54 UTC+8
+|_smbv2-enabled: Server supports SMBv2 protocol
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 56.24 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 16:57 CST
+Nmap scan report for 192.168.149.11
+Host is up (0.0017s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE    VERSION
+23/tcp   open  telnet     HP JetDirect telnetd
+80/tcp   open  http       Virata-EmWeb 6.2.1 (HP LaserJet P2055dn printer http config)
+|_html-title: HP LaserJet P2055dn&nbsp;&nbsp;&nbsp;192.168.149.11
+280/tcp  open  http       Virata-EmWeb 6.2.1 (HP LaserJet P2055dn printer http config)
+|_html-title: HP LaserJet P2055dn&nbsp;&nbsp;&nbsp;192.168.149.11
+443/tcp  open  ssl/http   Virata-EmWeb 6.2.1 (HP LaserJet P2055dn printer http config)
+|_html-title: HP LaserJet P2055dn&nbsp;&nbsp;&nbsp;192.168.149.11
+515/tcp  open  printer
+9100/tcp open  jetdirect?
+Service Info: Device: printer
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 49.05 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 16:58 CST
+Nmap scan report for 192.168.149.13
+Host is up.
+All 1000 scanned ports on 192.168.149.13 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 101.30 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:00 CST
+Nmap scan report for 192.168.149.14
+Host is up.
+All 1000 scanned ports on 192.168.149.14 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 101.26 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:01 CST
+Nmap scan report for 192.168.149.16
+Host is up (0.0015s latency).
+Not shown: 997 filtered ports
+PORT     STATE SERVICE VERSION
+843/tcp  open  unknown
+5678/tcp open  unknown
+6001/tcp open  X11:1?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port843-TCP:V=5.21%I=7%D=8/23%Time=5035F1CB%P=x86_64-unknown-linux-gnu%
+SF:r(GetRequest,6C,"HTTP/1\.0\x20403\x20Forbidden\r\nCache-Control:\x20pri
+SF:vate,max-age=0\r\nExpires:\x20-1\r\nServer:\x20IKUACC\r\nConnection:\x2
+SF:0Close\r\n\r\n")%r(HTTPOptions,6C,"HTTP/1\.0\x20403\x20Forbidden\r\nCac
+SF:he-Control:\x20private,max-age=0\r\nExpires:\x20-1\r\nServer:\x20IKUACC
+SF:\r\nConnection:\x20Close\r\n\r\n")%r(FourOhFourRequest,6C,"HTTP/1\.0\x2
+SF:0403\x20Forbidden\r\nCache-Control:\x20private,max-age=0\r\nExpires:\x2
+SF:0-1\r\nServer:\x20IKUACC\r\nConnection:\x20Close\r\n\r\n");
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 155.24 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:04 CST
+Nmap scan report for 192.168.149.20
+Host is up (0.0016s latency).
+Not shown: 990 closed ports
+PORT     STATE    SERVICE         VERSION
+80/tcp   open     http            gSOAP httpd 2.7
+|_html-title: HP LaserJet M1536dnf MFP&nbsp;&nbsp;&nbsp;192.168.149.20
+515/tcp  open     printer
+631/tcp  open     http            gSOAP httpd 2.7
+|_html-title: HP LaserJet M1536dnf MFP&nbsp;&nbsp;&nbsp;192.168.149.20
+5222/tcp filtered unknown
+8080/tcp open     http            gSOAP httpd 2.7
+|_html-title: HP LaserJet M1536dnf MFP&nbsp;&nbsp;&nbsp;192.168.149.20
+8291/tcp open     unknown
+8292/tcp filtered unknown
+8888/tcp open     sun-answerbook?
+9100/tcp open     jetdirect?
+9999/tcp open     abyss?
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 148.69 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:06 CST
+Nmap scan report for 192.168.149.21
+Host is up (0.00092s latency).
+Not shown: 988 closed ports
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn
+445/tcp  open  netbios-ssn
+1025/tcp open  msrpc         Microsoft Windows RPC
+1026/tcp open  msrpc         Microsoft Windows RPC
+1027/tcp open  msrpc         Microsoft Windows RPC
+1032/tcp open  msrpc         Microsoft Windows RPC
+1033/tcp open  msrpc         Microsoft Windows RPC
+1034/tcp open  msrpc         Microsoft Windows RPC
+3389/tcp open  microsoft-rdp Microsoft Terminal Service
+6001/tcp open  X11:1?
+6002/tcp open  X11:2?
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: FRANKLIN-PC, NetBIOS user: <unknown>, NetBIOS MAC: 00:24:1d:ac:11:8c
+| smb-os-discovery:  
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   Name: WORKGROUP\FRANKLIN-PC
+|_  System time: 2012-08-23 17:07:40 UTC+8
+|_smbv2-enabled: Server supports SMBv2 protocol
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 50.44 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:07 CST
+Nmap scan report for 192.168.149.24
+Host is up (0.0019s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE     VERSION
+912/tcp open  vmware-auth VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 100.48 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:09 CST
+Nmap scan report for 192.168.149.25
+Host is up (0.017s latency).
+Not shown: 996 closed ports
+PORT     STATE    SERVICE     VERSION
+22/tcp   open     ssh         OpenSSH 5.9p1 Debian 5ubuntu1 (protocol 2.0)
+| ssh-hostkey: 1024 be:4a:9e:66:f7:0f:44:9c:d1:e8:52:42:98:c2:bd:b9 (DSA)
+|_2048 e2:85:aa:6f:d3:49:45:ab:c0:a2:48:97:b4:47:e4:57 (RSA)
+111/tcp  open     rpcbind
+| rpcinfo:  
+| 100000  2,3,4    111/udp  rpcbind   
+| 100003  2,3,4   2049/udp  nfs       
+| 100227  2,3     2049/udp  nfs_acl   
+| 100005  3      36946/udp  mountd    
+| 100005  2      39347/udp  mountd    
+| 100005  1      43340/udp  mountd    
+| 100024  1      59018/udp  status    
+| 100021  1,3,4  59271/udp  nlockmgr  
+| 100000  2,3,4    111/tcp  rpcbind   
+| 100003  2,3,4   2049/tcp  nfs       
+| 100227  2,3     2049/tcp  nfs_acl   
+| 100024  1      34672/tcp  status    
+| 100005  2      51638/tcp  mountd    
+| 100005  3      54550/tcp  mountd    
+| 100005  1      55133/tcp  mountd    
+|_100021  1,3,4  56233/tcp  nlockmgr  
+1720/tcp filtered H.323/Q.931
+2049/tcp open     rpcbind
+Service Info: OS: Linux
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 8.62 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:09 CST
+Nmap scan report for 192.168.149.26
+Host is up (0.00082s latency).
+Not shown: 992 closed ports
+PORT     STATE SERVICE     VERSION
+21/tcp   open  ftp
+22/tcp   open  ssh         OpenSSH 5.8p1 Debian 7ubuntu1 (protocol 2.0)
+| ssh-hostkey: 1024 9b:6b:27:f4:2d:0e:36:61:67:61:2d:59:5a:ac:6d:55 (DSA)
+|_2048 2c:63:27:9c:ac:75:29:de:17:b7:47:ad:42:c6:f9:41 (RSA)
+111/tcp  open  rpcbind
+| rpcinfo:  
+| 100000  2,3,4    111/udp  rpcbind   
+| 100003  2,3,4   2049/udp  nfs       
+| 100227  2,3     2049/udp  nfs_acl   
+| 100005  2      34885/udp  mountd    
+| 100005  3      49733/udp  mountd    
+| 100024  1      49925/udp  status    
+| 100005  1      51179/udp  mountd    
+| 100021  1,3,4  55798/udp  nlockmgr  
+| 100000  2,3,4    111/tcp  rpcbind   
+| 100003  2,3,4   2049/tcp  nfs       
+| 100227  2,3     2049/tcp  nfs_acl   
+| 100024  1      34786/tcp  status    
+| 100021  1,3,4  44126/tcp  nlockmgr  
+| 100005  3      46375/tcp  mountd    
+| 100005  1      56083/tcp  mountd    
+|_100005  2      59684/tcp  mountd    
+139/tcp  open  netbios-ssn Samba smbd 3.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn Samba smbd 3.X (workgroup: WORKGROUP)
+631/tcp  open  ipp         CUPS 1.4
+2049/tcp open  rpcbind
+9091/tcp open  http        Transmission BitTorrent management httpd
+| html-title: Transmission Web Interface
+|_Requested resource was http://192.168.149.26:9091/transmission/web/
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port21-TCP:V=5.21%I=7%D=8/23%Time=5035F359%P=x86_64-unknown-linux-gnu%r
+SF:(NULL,22,"220\x20Welcome\x20to\x20MARS\x20FTP\x20service\.\r\n")%r(Gene
+SF:ricLines,22,"220\x20Welcome\x20to\x20MARS\x20FTP\x20service\.\r\n")%r(H
+SF:elp,48,"220\x20Welcome\x20to\x20MARS\x20FTP\x20service\.\r\n530\x20Plea
+SF:se\x20login\x20with\x20USER\x20and\x20PASS\.\r\n")%r(SMBProgNeg,22,"220
+SF:\x20Welcome\x20to\x20MARS\x20FTP\x20service\.\r\n");
+Service Info: Host: MARS; OS: Linux
+
+Host script results:
+|_nbstat: NetBIOS name: MARS-SERVER, NetBIOS user: <unknown>, NetBIOS MAC: <unknown>
+| smb-os-discovery:  
+|   OS: Unix (Samba 3.5.11)
+|   Name: WORKGROUP\Unknown
+|_  System time: 2012-08-23 17:10:06 UTC+8
+|_smbv2-enabled: Server doesn't support SMBv2 protocol
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 33.19 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:10 CST
+Nmap scan report for dbsi.split.hdu.edu.cn (192.168.149.27)
+Host is up (0.00100s latency).
+Not shown: 988 filtered ports
+PORT      STATE SERVICE     VERSION
+80/tcp    open  http        Apache Tomcat/Coyote JSP engine 1.1
+|_html-title: \xE9\xA6\x96\xE9\xA1\xB5 - \xE6\x95\xB0\xE6\x8D\xAE\xE5\xBA\x93\xE4\xB8\x8E\xE7\xB3\xBB\xE7\xBB\x9F\xE9\x9B\x86\xE6\x88\x90\xE5\xAE\x9E\xE9\xAA\x8C\xE5\xAE\xA4\xE7\xBD\x91\xE7\xAB\x99 - Powered by ...
+82/tcp    open  http        Apache httpd 2.2.14 ((Win32))
+| robots.txt: has 1 disallowed entry 
+|_/
+|_html-title: Bugzilla Main Page
+135/tcp   open  msrpc       Microsoft Windows RPC
+139/tcp   open  netbios-ssn
+554/tcp   open  rtsp?
+1521/tcp  open  oracle-tns  Oracle TNS Listener 11.1.0.6.0 (for 32-bit Windows)
+2869/tcp  open  http        Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+3690/tcp  open  svnserve    Subversion
+5357/tcp  open  http        Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_html-title: Service Unavailable
+8009/tcp  open  ajp13       Apache Jserv (Protocol v1.3)
+10243/tcp open  http        Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_html-title: Not Found
+49159/tcp open  msrpc       Microsoft Windows RPC
+Service Info: OS: Windows
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 128.78 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:12 CST
+Nmap scan report for 192.168.149.29
+Host is up (0.0032s latency).
+Not shown: 992 closed ports
+PORT      STATE SERVICE     VERSION
+135/tcp   open  msrpc       Microsoft Windows RPC
+139/tcp   open  netbios-ssn
+445/tcp   open  netbios-ssn
+49152/tcp open  msrpc       Microsoft Windows RPC
+49153/tcp open  msrpc       Microsoft Windows RPC
+49154/tcp open  msrpc       Microsoft Windows RPC
+49155/tcp open  msrpc       Microsoft Windows RPC
+49156/tcp open  msrpc       Microsoft Windows RPC
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: WIND-PC, NetBIOS user: <unknown>, NetBIOS MAC: 48:5b:39:97:a5:48
+| smb-os-discovery:  
+|   OS: Windows 7 Ultimate 7600 (Windows 7 Ultimate 6.1)
+|   Name: WORKGROUP\WIND-PC
+|_  System time: 2012-08-23 17:13:03 UTC+8
+|_smbv2-enabled: Server supports SMBv2 protocol
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 54.87 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:13 CST
+Nmap scan report for 192.168.149.30
+Host is up (0.00071s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 5.8 (protocol 2.0)
+| ssh-hostkey: 1024 9a:a5:26:32:23:48:ea:62:93:9e:88:c2:13:a6:a5:d0 (DSA)
+|_2048 f1:fa:67:50:9b:4c:63:e6:85:48:69:92:25:48:55:96 (RSA)
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 125.06 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:15 CST
+Nmap scan report for 192.168.149.34
+Host is up (0.00096s latency).
+Not shown: 990 closed ports
+PORT      STATE SERVICE     VERSION
+22/tcp    open  ssh         OpenSSH 6.0 (protocol 2.0)
+| ssh-hostkey: 1024 cf:c1:e0:0b:62:7d:93:37:3d:fa:ed:dd:09:e6:5c:ed (DSA)
+|_2048 21:43:a5:0d:15:11:9a:2c:f9:dd:4d:22:04:2f:b1:e1 (RSA)
+135/tcp   open  msrpc       Microsoft Windows RPC
+139/tcp   open  netbios-ssn
+445/tcp   open  netbios-ssn
+3306/tcp  open  mysql       MySQL (unauthorized)
+49152/tcp open  msrpc       Microsoft Windows RPC
+49153/tcp open  msrpc       Microsoft Windows RPC
+49154/tcp open  msrpc       Microsoft Windows RPC
+49155/tcp open  msrpc       Microsoft Windows RPC
+49157/tcp open  msrpc       Microsoft Windows RPC
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: LIUYU, NetBIOS user: <unknown>, NetBIOS MAC: 44:37:e6:3c:32:a8
+|_smbv2-enabled: Server supports SMBv2 protocol
+| smb-os-discovery:  
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   Name: WORKGROUP\LIUYU
+|_  System time: 2012-08-23 17:16:03 UTC+8
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 64.30 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:16 CST
+Nmap scan report for 192.168.149.35
+Host is up.
+All 1000 scanned ports on 192.168.149.35 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 101.30 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:18 CST
+Nmap scan report for 192.168.149.37
+Host is up.
+All 1000 scanned ports on 192.168.149.37 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 101.29 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:19 CST
+Nmap scan report for 192.168.149.40
+Host is up (0.0011s latency).
+All 1000 scanned ports on 192.168.149.40 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 8.75 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:19 CST
+Nmap scan report for 192.168.149.41
+Host is up (0.0020s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE     VERSION
+135/tcp  open  msrpc       Microsoft Windows RPC
+139/tcp  open  netbios-ssn
+445/tcp  open  netbios-ssn
+5357/tcp open  http        Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_html-title: Service Unavailable
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: ZJH-WORK, NetBIOS user: <unknown>, NetBIOS MAC: 00:23:ae:95:6f:fa
+|_smbv2-enabled: Server supports SMBv2 protocol
+| smb-os-discovery:  
+|   OS: Windows 7 Professional 7600 (Windows 7 Professional 6.1)
+|   Name: GIDE-WORK\ZJH-WORK
+|_  System time: 2012-08-23 17:20:13 UTC+8
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 62.80 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:20 CST
+Nmap scan report for 192.168.149.42
+Host is up (0.00079s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE     VERSION
+135/tcp  open  msrpc       Microsoft Windows RPC
+139/tcp  open  netbios-ssn
+3306/tcp open  mysql?
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: 20110629-1338, NetBIOS user: <unknown>, NetBIOS MAC: 00:16:ec:dc:98:61
+|_smbv2-enabled: Server doesn't support SMBv2 protocol
+| smb-os-discovery:  
+|   OS: Windows XP (Windows 2000 LAN Manager)
+|   Name: WORKGROUP\20110629-1338
+|_  System time: 2012-08-23 17:22:54 UTC+8
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 147.46 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:23 CST
+Nmap scan report for 192.168.149.43
+Host is up (0.00081s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE       VERSION
+3389/tcp open  microsoft-rdp Microsoft Terminal Service
+Service Info: OS: Windows
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 11.66 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:23 CST
+Nmap scan report for 192.168.149.47
+Host is up (0.20s latency).
+All 1000 scanned ports on 192.168.149.47 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 27.31 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:24 CST
+Nmap scan report for 192.168.149.48
+Host is up.
+All 1000 scanned ports on 192.168.149.48 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 101.26 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:25 CST
+Nmap scan report for 192.168.149.49
+Host is up (0.0026s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE     VERSION
+135/tcp  open  msrpc       Microsoft Windows RPC
+139/tcp  open  netbios-ssn
+445/tcp  open  netbios-ssn
+6001/tcp open  X11:1?
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: WHUI-PC, NetBIOS user: <unknown>, NetBIOS MAC: 00:24:7e:04:da:13
+|_smbv2-enabled: Server supports SMBv2 protocol
+| smb-os-discovery:  
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   Name: WORKGROUP\WHUI-PC
+|_  System time: 2012-08-23 17:25:50 UTC+8
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 50.64 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:26 CST
+Nmap scan report for 192.168.149.50
+Host is up (0.0012s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+9999/tcp open  abyss?
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 159.61 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:29 CST
+Nmap scan report for 192.168.149.50
+Host is up (0.00044s latency).
+All 1000 scanned ports on 192.168.149.50 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 11.76 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:29 CST
+Nmap scan report for 192.168.149.55
+Host is up (0.0012s latency).
+Not shown: 995 filtered ports
+PORT     STATE SERVICE     VERSION
+135/tcp  open  msrpc       Microsoft Windows RPC
+139/tcp  open  netbios-ssn
+445/tcp  open  netbios-ssn
+912/tcp  open  vmware-auth VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+5357/tcp open  http        Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_html-title: Service Unavailable
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: ZZX-PC, NetBIOS user: <unknown>, NetBIOS MAC: 98:4b:e1:b7:d0:b1
+|_smbv2-enabled: Server supports SMBv2 protocol
+| smb-os-discovery:  
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   Name: WORKGROUP\ZZX-PC
+|_  System time: 2012-08-23 17:29:46 UTC+8
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 64.04 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:30 CST
+Nmap scan report for 192.168.149.56
+Host is up (0.0017s latency).
+Not shown: 988 closed ports
+PORT      STATE SERVICE         VERSION
+135/tcp   open  msrpc           Microsoft Windows RPC
+139/tcp   open  netbios-ssn
+443/tcp   open  ssl/https?
+445/tcp   open  netbios-ssn
+902/tcp   open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp   open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+6001/tcp  open  X11:1?
+49152/tcp open  msrpc           Microsoft Windows RPC
+49153/tcp open  msrpc           Microsoft Windows RPC
+49154/tcp open  msrpc           Microsoft Windows RPC
+49175/tcp open  msrpc           Microsoft Windows RPC
+49176/tcp open  msrpc           Microsoft Windows RPC
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port443-TCP:V=5.21%T=SSL%I=7%D=8/23%Time=5035F845%P=x86_64-unknown-linux-gnu%r(GetRequest,88,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Thu,\x2023
+SF:\x20Aug\x202012\x2009:30:32\x20GMT\r\nConnection:\x20close\r\nContent-T
+SF:ype:\x20text;\x20charset=plain\r\nContent-Length:\x200\r\n\r\n")%r(HTTP
+SF:Options,BB,"HTTP/1\.1\x20501\x20Not\x20Implemented\r\nDate:\x20Thu,\x20
+SF:23\x20Aug\x202012\x2009:30:37\x20GMT\r\nConnection:\x20close\r\nContent
+SF:-Type:\x20text/html\r\nContent-Length:\x2054\r\n\r\n<HTML><BODY><H1>501
+SF:\x20Not\x20Implemented</H1></BODY></HTML>")%r(RTSPRequest,BB,"HTTP/1\.1
+SF:\x20501\x20Not\x20Implemented\r\nDate:\x20Thu,\x2023\x20Aug\x202012\x20
+SF:09:30:37\x20GMT\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r
+SF:\nContent-Length:\x2054\r\n\r\n<HTML><BODY><H1>501\x20Not\x20Implemente
+SF:d</H1></BODY></HTML>")%r(FourOhFourRequest,88,"HTTP/1\.1\x20404\x20Not\
+SF:x20Found\r\nDate:\x20Thu,\x2023\x20Aug\x202012\x2009:31:15\x20GMT\r\nCo
+SF:nnection:\x20close\r\nContent-Type:\x20text;\x20charset=plain\r\nConten
+SF:t-Length:\x200\r\n\r\n")%r(SIPOptions,BB,"HTTP/1\.1\x20501\x20Not\x20Im
+SF:plemented\r\nDate:\x20Thu,\x2023\x20Aug\x202012\x2009:31:25\x20GMT\r\nC
+SF:onnection:\x20close\r\nContent-Type:\x20text/html\r\nContent-Length:\x2
+SF:054\r\n\r\n<HTML><BODY><H1>501\x20Not\x20Implemented</H1></BODY></HTML>
+SF:");
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: DLC, NetBIOS user: <unknown>, NetBIOS MAC: 8c:89:a5:3b:5c:f4
+|_smbv2-enabled: Server supports SMBv2 protocol
+| smb-os-discovery:  
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   Name: WORKGROUP\DLC
+|_  System time: 2012-08-23 17:31:55 UTC+8
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 101.26 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:32 CST
+Nmap scan report for 192.168.149.57
+Host is up (0.00092s latency).
+All 1000 scanned ports on 192.168.149.57 are closed
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 38.21 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:32 CST
+Nmap scan report for 192.168.149.58
+Host is up (0.0016s latency).
+Not shown: 985 closed ports
+PORT     STATE SERVICE         VERSION
+135/tcp  open  msrpc           Microsoft Windows RPC
+139/tcp  open  netbios-ssn
+443/tcp  open  ssl/http        Apache httpd
+|_html-title: VisualSVN Server
+445/tcp  open  netbios-ssn
+902/tcp  open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp  open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+1025/tcp open  msrpc           Microsoft Windows RPC
+1026/tcp open  msrpc           Microsoft Windows RPC
+1033/tcp open  msrpc           Microsoft Windows RPC
+1035/tcp open  msrpc           Microsoft Windows RPC
+1039/tcp open  msrpc           Microsoft Windows RPC
+1040/tcp open  msrpc           Microsoft Windows RPC
+1042/tcp open  msrpc           Microsoft Windows RPC
+3389/tcp open  microsoft-rdp   Microsoft Terminal Service
+6001/tcp open  X11:1?
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: AIR-PC, NetBIOS user: <unknown>, NetBIOS MAC: 8c:89:a5:3b:5c:44
+| smb-os-discovery:  
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   Name: WORKGROUP\AIR-PC
+|_  System time: 2012-08-23 17:33:17 UTC+8
+|_smbv2-enabled: Server supports SMBv2 protocol
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 54.87 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:33 CST
+Nmap scan report for 192.168.149.59
+Host is up (0.0018s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE    VERSION
+6000/tcp open  tcpwrapped
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 99.98 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:35 CST
+Nmap scan report for 192.168.149.60
+Host is up (0.0015s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE     VERSION
+135/tcp  open  msrpc       Microsoft Windows RPC
+139/tcp  open  netbios-ssn
+445/tcp  open  netbios-ssn
+912/tcp  open  vmware-auth VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+8009/tcp open  ajp13       Apache Jserv (Protocol v1.3)
+8080/tcp open  http        Apache Tomcat/Coyote JSP engine 1.1
+|_html-title: Apache Tomcat
+|_http-open-proxy: Proxy might be redirecting requests
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: ZHANGYIFEI-PC, NetBIOS user: <unknown>, NetBIOS MAC: 44:37:e6:3c:32:cc
+|_smbv2-enabled: Server supports SMBv2 protocol
+| smb-os-discovery:  
+|   OS: Windows 7 Ultimate 7600 (Windows 7 Ultimate 6.1)
+|   Name: WORKGROUP\ZHANGYIFEI-PC
+|_  System time: 2012-08-23 17:35:43 UTC+8
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 63.41 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:36 CST
+Nmap scan report for 192.168.149.62
+Host is up (0.0010s latency).
+Not shown: 995 closed ports
+PORT      STATE SERVICE     VERSION
+135/tcp   open  msrpc       Microsoft Windows RPC
+139/tcp   open  netbios-ssn
+843/tcp   open  unknown
+9000/tcp  open  tcpwrapped
+16000/tcp open  unknown
+Service Info: OS: Windows
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 147.64 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:38 CST
+Nmap scan report for 192.168.149.67
+Host is up.
+All 1000 scanned ports on 192.168.149.67 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 101.25 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:40 CST
+Nmap scan report for 192.168.149.71
+Host is up.
+All 1000 scanned ports on 192.168.149.71 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 101.31 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:42 CST
+Nmap scan report for 192.168.149.76
+Host is up (0.35s latency).
+All 1000 scanned ports on 192.168.149.76 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 33.06 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:42 CST
+Nmap scan report for 192.168.149.77
+Host is up (0.0013s latency).
+Not shown: 988 closed ports
+PORT      STATE SERVICE       VERSION
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn
+445/tcp   open  netbios-ssn
+3389/tcp  open  microsoft-rdp Microsoft Terminal Service
+5357/tcp  open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_html-title: Service Unavailable
+6001/tcp  open  X11:1?
+49152/tcp open  msrpc         Microsoft Windows RPC
+49153/tcp open  msrpc         Microsoft Windows RPC
+49154/tcp open  msrpc         Microsoft Windows RPC
+49156/tcp open  msrpc         Microsoft Windows RPC
+49157/tcp open  msrpc         Microsoft Windows RPC
+49158/tcp open  msrpc         Microsoft Windows RPC
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: LONG-PC, NetBIOS user: <unknown>, NetBIOS MAC: 8c:89:a5:39:5c:53
+|_smbv2-enabled: Server supports SMBv2 protocol
+| smb-os-discovery:  
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   Name: WORKGROUP\LONG-PC
+|_  System time: 2012-08-23 17:43:34 UTC+8
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 54.84 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:43 CST
+Nmap scan report for 192.168.149.81
+Host is up (0.0017s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+2100/tcp open  unknown
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 199.06 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:47 CST
+Nmap scan report for 192.168.149.87
+Host is up.
+All 1000 scanned ports on 192.168.149.87 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 101.30 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:48 CST
+Nmap scan report for 192.168.149.88
+Host is up (0.0012s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE     VERSION
+135/tcp open  msrpc       Microsoft Windows RPC
+139/tcp open  netbios-ssn
+445/tcp open  netbios-ssn
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: 007-PC, NetBIOS user: <unknown>, NetBIOS MAC: 00:1c:c4:54:d4:c9
+| smb-os-discovery:  
+|   OS: Windows 7 Ultimate 7600 (Windows 7 Ultimate 6.1)
+|   Name: WORKGROUP\007-PC
+|_  System time: 2012-08-23 17:48:59 UTC+8
+|_smbv2-enabled: Server supports SMBv2 protocol
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 57.90 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:49 CST
+Nmap scan report for 192.168.149.91
+Host is up (0.00084s latency).
+Not shown: 979 closed ports
+PORT      STATE SERVICE         VERSION
+80/tcp    open  http            Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_html-title: Not Found
+135/tcp   open  msrpc           Microsoft Windows RPC
+139/tcp   open  netbios-ssn
+443/tcp   open  ssl/https?
+445/tcp   open  netbios-ssn
+902/tcp   open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp   open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+1025/tcp  open  msrpc           Microsoft Windows RPC
+1026/tcp  open  msrpc           Microsoft Windows RPC
+1027/tcp  open  msrpc           Microsoft Windows RPC
+1031/tcp  open  msrpc           Microsoft Windows RPC
+1058/tcp  open  nim?
+1060/tcp  open  msrpc           Microsoft Windows RPC
+1061/tcp  open  msrpc           Microsoft Windows RPC
+1433/tcp  open  ms-sql-s        Microsoft SQL Server 2008 10.0.1600; RTM
+1935/tcp  open  tcpwrapped
+2383/tcp  open  ms-olap4?
+3389/tcp  open  microsoft-rdp   Microsoft Terminal Service
+8080/tcp  open  http            Zope unreleased version (python 2.4.4, win32; ZServer/1.1 Plone/3.3.5)
+|_html-title: Plone
+16993/tcp open  tcpwrapped
+49152/tcp open  unknown
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=5.21%T=SSL%I=7%D=8/23%Time=5035FCC8%P=x86_64-unknown-linux-gnu%r(GetRequest,88,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Thu,\x2023
+SF:\x20Aug\x202012\x2009:49:40\x20GMT\r\nConnection:\x20close\r\nContent-T
+SF:ype:\x20text;\x20charset=plain\r\nContent-Length:\x200\r\n\r\n")%r(HTTP
+SF:Options,BB,"HTTP/1\.1\x20501\x20Not\x20Implemented\r\nDate:\x20Thu,\x20
+SF:23\x20Aug\x202012\x2009:49:45\x20GMT\r\nConnection:\x20close\r\nContent
+SF:-Type:\x20text/html\r\nContent-Length:\x2054\r\n\r\n<HTML><BODY><H1>501
+SF:\x20Not\x20Implemented</H1></BODY></HTML>")%r(RTSPRequest,BB,"HTTP/1\.1
+SF:\x20501\x20Not\x20Implemented\r\nDate:\x20Thu,\x2023\x20Aug\x202012\x20
+SF:09:49:45\x20GMT\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r
+SF:\nContent-Length:\x2054\r\n\r\n<HTML><BODY><H1>501\x20Not\x20Implemente
+SF:d</H1></BODY></HTML>")%r(FourOhFourRequest,88,"HTTP/1\.1\x20404\x20Not\
+SF:x20Found\r\nDate:\x20Thu,\x2023\x20Aug\x202012\x2009:50:22\x20GMT\r\nCo
+SF:nnection:\x20close\r\nContent-Type:\x20text;\x20charset=plain\r\nConten
+SF:t-Length:\x200\r\n\r\n")%r(SIPOptions,BB,"HTTP/1\.1\x20501\x20Not\x20Im
+SF:plemented\r\nDate:\x20Thu,\x2023\x20Aug\x202012\x2009:50:33\x20GMT\r\nC
+SF:onnection:\x20close\r\nContent-Type:\x20text/html\r\nContent-Length:\x2
+SF:054\r\n\r\n<HTML><BODY><H1>501\x20Not\x20Implemented</H1></BODY></HTML>
+SF:");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port49152-TCP:V=5.21%I=7%D=8/23%Time=5035FCBE%P=x86_64-unknown-linux-gnu%r(NULL,CD,"HTTP/0\.0\x20400\x20Bad\x20Request\r\nSERVER:\x206\.1\.7601\x2
+SF:02/Service\x20Pack\x201,\x20UPnP/1\.0,\x20Portable\x20SDK\x20for\x20UPn
+SF:P\x20devices/1\.4\.7\r\nCONTENT-LENGTH:\x2050\r\nCONTENT-TYPE:\x20text/
+SF:html\r\n\r\n<html><body><h1>400\x20Bad\x20Request</h1></body></html>")%
+SF:r(FourOhFourRequest,E1,"HTTP/1\.0\x20500\x20Internal\x20Server\x20Error
+SF:\r\nSERVER:\x206\.1\.7601\x202/Service\x20Pack\x201,\x20UPnP/1\.0,\x20P
+SF:ortable\x20SDK\x20for\x20UPnP\x20devices/1\.4\.7\r\nCONTENT-LENGTH:\x20
+SF:60\r\nCONTENT-TYPE:\x20text/html\r\n\r\n<html><body><h1>500\x20Internal
+SF:\x20Server\x20Error</h1></body></html>")%r(GenericLines,CD,"HTTP/0\.0\x
+SF:20400\x20Bad\x20Request\r\nSERVER:\x206\.1\.7601\x202/Service\x20Pack\x
+SF:201,\x20UPnP/1\.0,\x20Portable\x20SDK\x20for\x20UPnP\x20devices/1\.4\.7
+SF:\r\nCONTENT-LENGTH:\x2050\r\nCONTENT-TYPE:\x20text/html\r\n\r\n<html><b
+SF:ody><h1>400\x20Bad\x20Request</h1></body></html>")%r(GetRequest,E1,"HTT
+SF:P/1\.0\x20500\x20Internal\x20Server\x20Error\r\nSERVER:\x206\.1\.7601\x
+SF:202/Service\x20Pack\x201,\x20UPnP/1\.0,\x20Portable\x20SDK\x20for\x20UP
+SF:nP\x20devices/1\.4\.7\r\nCONTENT-LENGTH:\x2060\r\nCONTENT-TYPE:\x20text
+SF:/html\r\n\r\n<html><body><h1>500\x20Internal\x20Server\x20Error</h1></b
+SF:ody></html>")%r(HTTPOptions,D5,"HTTP/1\.0\x20501\x20Not\x20Implemented\
+SF:r\nSERVER:\x206\.1\.7601\x202/Service\x20Pack\x201,\x20UPnP/1\.0,\x20Po
+SF:rtable\x20SDK\x20for\x20UPnP\x20devices/1\.4\.7\r\nCONTENT-LENGTH:\x205
+SF:4\r\nCONTENT-TYPE:\x20text/html\r\n\r\n<html><body><h1>501\x20Not\x20Im
+SF:plemented</h1></body></html>")%r(RTSPRequest,CD,"HTTP/0\.0\x20400\x20Ba
+SF:d\x20Request\r\nSERVER:\x206\.1\.7601\x202/Service\x20Pack\x201,\x20UPn
+SF:P/1\.0,\x20Portable\x20SDK\x20for\x20UPnP\x20devices/1\.4\.7\r\nCONTENT
+SF:-LENGTH:\x2050\r\nCONTENT-TYPE:\x20text/html\r\n\r\n<html><body><h1>400
+SF:\x20Bad\x20Request</h1></body></html>")%r(RPCCheck,CD,"HTTP/0\.0\x20400
+SF:\x20Bad\x20Request\r\nSERVER:\x206\.1\.7601\x202/Service\x20Pack\x201,\
+SF:x20UPnP/1\.0,\x20Portable\x20SDK\x20for\x20UPnP\x20devices/1\.4\.7\r\nC
+SF:ONTENT-LENGTH:\x2050\r\nCONTENT-TYPE:\x20text/html\r\n\r\n<html><body><
+SF:h1>400\x20Bad\x20Request</h1></body></html>");
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: GSCL-PC, NetBIOS user: <unknown>, NetBIOS MAC: 00:24:1d:6f:a2:a8
+| smb-os-discovery:  
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   Name: WORKGROUP\GSCL-PC
+|_  System time: 2012-08-23 17:51:03 UTC+8
+|_smbv2-enabled: Server supports SMBv2 protocol
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 101.88 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:51 CST
+Nmap scan report for 192.168.149.100
+Host is up.
+All 1000 scanned ports on 192.168.149.100 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 101.29 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:53 CST
+Nmap scan report for 192.168.149.109
+Host is up (0.025s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+23/tcp open  telnet  Cisco router
+80/tcp open  http    Cisco IOS administrative httpd
+|_html-title: Site doesn't have a title (text/html).
+Service Info: OS: IOS; Device: router
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 7.74 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:53 CST
+Nmap scan report for 192.168.149.111
+Host is up (0.00063s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE    VERSION
+5357/tcp open  http       Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_html-title: Service Unavailable
+6000/tcp open  tcpwrapped
+Service Info: OS: Windows
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 25.07 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:53 CST
+Nmap scan report for 192.168.149.120
+Host is up (0.0036s latency).
+Not shown: 991 closed ports
+PORT     STATE SERVICE         VERSION
+135/tcp  open  msrpc           Microsoft Windows RPC
+139/tcp  open  netbios-ssn
+443/tcp  open  ssl/https?
+445/tcp  open  microsoft-ds    Microsoft Windows XP microsoft-ds
+902/tcp  open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp  open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+1025/tcp open  msrpc           Microsoft Windows RPC
+3306/tcp open  mysql           MySQL 5.5.17
+| mysql-info: Protocol: 10
+| Version: 5.5.17
+| Thread ID: 6
+| Some Capabilities: Long Passwords, Connect with DB, Compress, ODBC, Transactions, Secure Connection
+| Status: Autocommit
+|_Salt: ,|OT:dg[
+8031/tcp open  unknown
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=5.21%T=SSL%I=7%D=8/23%Time=5035FDB4%P=x86_64-unknown-linux-gnu%r(GetRequest,88,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Thu,\x2023
+SF:\x20Aug\x202012\x2009:54:07\x20GMT\r\nConnection:\x20close\r\nContent-T
+SF:ype:\x20text;\x20charset=plain\r\nContent-Length:\x200\r\n\r\n")%r(HTTP
+SF:Options,BB,"HTTP/1\.1\x20501\x20Not\x20Implemented\r\nDate:\x20Thu,\x20
+SF:23\x20Aug\x202012\x2009:54:12\x20GMT\r\nConnection:\x20close\r\nContent
+SF:-Type:\x20text/html\r\nContent-Length:\x2054\r\n\r\n<HTML><BODY><H1>501
+SF:\x20Not\x20Implemented</H1></BODY></HTML>")%r(RTSPRequest,BB,"HTTP/1\.1
+SF:\x20501\x20Not\x20Implemented\r\nDate:\x20Thu,\x2023\x20Aug\x202012\x20
+SF:09:54:12\x20GMT\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r
+SF:\nContent-Length:\x2054\r\n\r\n<HTML><BODY><H1>501\x20Not\x20Implemente
+SF:d</H1></BODY></HTML>")%r(FourOhFourRequest,88,"HTTP/1\.1\x20404\x20Not\
+SF:x20Found\r\nDate:\x20Thu,\x2023\x20Aug\x202012\x2009:54:50\x20GMT\r\nCo
+SF:nnection:\x20close\r\nContent-Type:\x20text;\x20charset=plain\r\nConten
+SF:t-Length:\x200\r\n\r\n")%r(SIPOptions,BB,"HTTP/1\.1\x20501\x20Not\x20Im
+SF:plemented\r\nDate:\x20Thu,\x2023\x20Aug\x202012\x2009:55:00\x20GMT\r\nC
+SF:onnection:\x20close\r\nContent-Type:\x20text/html\r\nContent-Length:\x2
+SF:054\r\n\r\n<HTML><BODY><H1>501\x20Not\x20Implemented</H1></BODY></HTML>
+SF:");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8031-TCP:V=5.21%I=7%D=8/23%Time=5035FDAE%P=x86_64-unknown-linux-gnu
+SF:%r(GetRequest,1A,"HTTP/1\.1\x20404\x20Not\x20Found\r\n\r\n")%r(HTTPOpti
+SF:ons,1A,"HTTP/1\.1\x20404\x20Not\x20Found\r\n\r\n")%r(FourOhFourRequest,
+SF:1A,"HTTP/1\.1\x20404\x20Not\x20Found\r\n\r\n");
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: PC2010072115FHD, NetBIOS user: <unknown>, NetBIOS MAC: 00:21:97:04:ae:4a
+| smb-os-discovery:  
+|   OS: Windows XP (Windows 2000 LAN Manager)
+|   Name: MSHOME\PC2010072115FHD
+|_  System time: 2012-08-23 17:55:30 UTC+8
+|_smbv2-enabled: Server doesn't support SMBv2 protocol
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 96.41 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:55 CST
+Nmap scan report for 192.168.149.122
+Host is up (0.0027s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE      VERSION
+22/tcp   open  ssh          OpenSSH 4.7 (protocol 2.0)
+| ssh-hostkey: 1024 c2:31:f4:e2:29:c2:e8:a3:73:e3:27:7f:a9:e4:b3:5e (DSA)
+|_2048 51:79:76:35:91:d0:d5:12:0d:37:22:5b:13:a8:55:5d (RSA)
+80/tcp   open  sip          Mbedthis-Appweb/2.4.2 (Status: 400 Bad Request)
+111/tcp  open  rpcbind
+| rpcinfo:  
+| 100000  2    111/udp  rpcbind  
+|_100000  2    111/tcp  rpcbind  
+443/tcp  open  ssl/sip      Mbedthis-Appweb/2.4.2 (Status: 400 Bad Request)
+2068/tcp open  advocentkvm?
+5988/tcp open  unknown
+3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=5.21%I=7%D=8/23%Time=5035FE0E%P=x86_64-unknown-linux-gnu%r
+SF:(GetRequest,FE,"HTTP/1\.0\x20301\x20Moved\x20Permanently\r\nDate:\x20Th
+SF:u,\x2023\x20Aug\x202012\x2017:56:15\x20GMT\r\nServer:\x20Mbedthis-Appwe
+SF:b/2\.4\.2\r\nContent-type:\x20text/html\r\nETag:\x20\"b322c0-8450-0\"\r
+SF:\nContent-length:\x200\r\nConnection:\x20close\r\nLocation:\x20http://A
+SF:vocent\x20Remote\x20Management\x20Controller/login\.html\r\n\r\n")%r(HT
+SF:TPOptions,122,"HTTP/1\.0\x20301\x20Moved\x20Permanently\r\nDate:\x20Thu
+SF:,\x2023\x20Aug\x202012\x2017:56:15\x20GMT\r\nServer:\x20Mbedthis-Appweb
+SF:/2\.4\.2\r\nContent-type:\x20text/html\r\nETag:\x20\"b322c0-8450-0\"\r\
+SF:nContent-length:\x200\r\nConnection:\x20close\r\nLocation:\x20http://Av
+SF:ocent\x20Remote\x20Management\x20Controller/login\.html\r\nAllow:\x20OP
+SF:TIONS,TRACE,GET,HEAD,POST\r\n\r\n")%r(RTSPRequest,14A,"RTSP/1\.0\x20400
+SF:\x20Bad\x20Request\r\nServer:\x20Mbedthis-Appweb/2\.4\.2\r\nDate:\x20Th
+SF:u,\x2023\x20Aug\x202012\x2017:56:16\x20GMT\r\nConnection:\x20keep-alive
+SF:\r\nKeep-Alive:\x20timeout=60,\x20max=2000\r\nContent-Type:\x20text/htm
+SF:l\r\nContent-length:\x20130\r\n\r\n<HTML><HEAD><TITLE>Document\x20Error
+SF::\x20Bad\x20Request</TITLE></HEAD>\r\n<BODY><H2>Access\x20Error:\x20400
+SF:\x20--\x20Bad\x20Request</H2>\r\n</BODY></HTML>\r\n\r\n")%r(FourOhFourR
+SF:equest,11D,"HTTP/1\.0\x20404\x20Not\x20Found\r\nServer:\x20Mbedthis-App
+SF:web/2\.4\.2\r\nDate:\x20Thu,\x2023\x20Aug\x202012\x2017:56:25\x20GMT\r\
+SF:nConnection:\x20close\r\nContent-Type:\x20text/html\r\nContent-length:\
+SF:x20126\r\n\r\n<HTML><HEAD><TITLE>Document\x20Error:\x20Not\x20Found</TI
+SF:TLE></HEAD>\r\n<BODY><H2>Access\x20Error:\x20404\x20--\x20Not\x20Found<
+SF:/H2>\r\n</BODY></HTML>\r\n\r\n")%r(Help,14F,"UnknownMethod\x20400\x20Ba
+SF:d\x20Request\r\nServer:\x20Mbedthis-Appweb/2\.4\.2\r\nDate:\x20Thu,\x20
+SF:23\x20Aug\x202012\x2017:56:45\x20GMT\r\nConnection:\x20keep-alive\r\nKe
+SF:ep-Alive:\x20timeout=60,\x20max=2000\r\nContent-Type:\x20text/html\r\nC
+SF:ontent-length:\x20130\r\n\r\n<HTML><HEAD><TITLE>Document\x20Error:\x20B
+SF:ad\x20Request</TITLE></HEAD>\r\n<BODY><H2>Access\x20Error:\x20400\x20--
+SF:\x20Bad\x20Request</H2>\r\n</BODY></HTML>\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=5.21%T=SSL%I=7%D=8/23%Time=5035FE15%P=x86_64-unknown-linux-gnu%r(GetRequest,DF,"HTTP/1\.0\x20301\x20Moved\x20Permanently\r\nDate:\x2
+SF:0Thu,\x2023\x20Aug\x202012\x2017:56:22\x20GMT\r\nServer:\x20Mbedthis-Ap
+SF:pweb/2\.4\.2\r\nContent-type:\x20text/html\r\nETag:\x20\"b322c0-8450-0\
+SF:"\r\nContent-length:\x200\r\nConnection:\x20close\r\nLocation:\x20https
+SF:://:443/login\.html\r\n\r\n")%r(HTTPOptions,103,"HTTP/1\.0\x20301\x20Mo
+SF:ved\x20Permanently\r\nDate:\x20Thu,\x2023\x20Aug\x202012\x2017:56:27\x2
+SF:0GMT\r\nServer:\x20Mbedthis-Appweb/2\.4\.2\r\nContent-type:\x20text/htm
+SF:l\r\nETag:\x20\"b322c0-8450-0\"\r\nContent-length:\x200\r\nConnection:\
+SF:x20close\r\nLocation:\x20https://:443/login\.html\r\nAllow:\x20OPTIONS,
+SF:TRACE,GET,HEAD,POST\r\n\r\n")%r(RTSPRequest,14A,"RTSP/1\.0\x20400\x20Ba
+SF:d\x20Request\r\nServer:\x20Mbedthis-Appweb/2\.4\.2\r\nDate:\x20Thu,\x20
+SF:23\x20Aug\x202012\x2017:56:28\x20GMT\r\nConnection:\x20keep-alive\r\nKe
+SF:ep-Alive:\x20timeout=60,\x20max=2000\r\nContent-Type:\x20text/html\r\nC
+SF:ontent-length:\x20130\r\n\r\n<HTML><HEAD><TITLE>Document\x20Error:\x20B
+SF:ad\x20Request</TITLE></HEAD>\r\n<BODY><H2>Access\x20Error:\x20400\x20--
+SF:\x20Bad\x20Request</H2>\r\n</BODY></HTML>\r\n\r\n")%r(Help,14F,"Unknown
+SF:Method\x20400\x20Bad\x20Request\r\nServer:\x20Mbedthis-Appweb/2\.4\.2\r
+SF:\nDate:\x20Thu,\x2023\x20Aug\x202012\x2017:56:48\x20GMT\r\nConnection:\
+SF:x20keep-alive\r\nKeep-Alive:\x20timeout=60,\x20max=2000\r\nContent-Type
+SF::\x20text/html\r\nContent-length:\x20130\r\n\r\n<HTML><HEAD><TITLE>Docu
+SF:ment\x20Error:\x20Bad\x20Request</TITLE></HEAD>\r\n<BODY><H2>Access\x20
+SF:Error:\x20400\x20--\x20Bad\x20Request</H2>\r\n</BODY></HTML>\r\n\r\n")%
+SF:r(SSLSessionReq,14F,"UnknownMethod\x20400\x20Bad\x20Request\r\nServer:\
+SF:x20Mbedthis-Appweb/2\.4\.2\r\nDate:\x20Thu,\x2023\x20Aug\x202012\x2017:
+SF:56:55\x20GMT\r\nConnection:\x20keep-alive\r\nKeep-Alive:\x20timeout=60,
+SF:\x20max=2000\r\nContent-Type:\x20text/html\r\nContent-length:\x20130\r\
+SF:n\r\n<HTML><HEAD><TITLE>Document\x20Error:\x20Bad\x20Request</TITLE></H
+SF:EAD>\r\n<BODY><H2>Access\x20Error:\x20400\x20--\x20Bad\x20Request</H2>\
+SF:r\n</BODY></HTML>\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5988-TCP:V=5.21%I=7%D=8/23%Time=5035FE0D%P=x86_64-unknown-linux-gnu
+SF:%r(NULL,41,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20sfcHttpd\r
+SF:\nContent-Length:\x200\r\n\r\n")%r(GenericLines,86,"HTTP/1\.1\x20501\x2
+SF:0Not\x20Implemented\r\nServer:\x20sfcHttpd\r\nContent-Length:\x200\r\n\
+SF:r\nHTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20sfcHttpd\r\nContent
+SF:-Length:\x200\r\n\r\n")%r(GetRequest,45,"HTTP/1\.1\x20501\x20Not\x20Imp
+SF:lemented\r\nServer:\x20sfcHttpd\r\nContent-Length:\x200\r\n\r\n")%r(HTT
+SF:POptions,45,"HTTP/1\.1\x20501\x20Not\x20Implemented\r\nServer:\x20sfcHt
+SF:tpd\r\nContent-Length:\x200\r\n\r\n")%r(RTSPRequest,45,"HTTP/1\.1\x2050
+SF:1\x20Not\x20Implemented\r\nServer:\x20sfcHttpd\r\nContent-Length:\x200\
+SF:r\n\r\n")%r(FourOhFourRequest,45,"HTTP/1\.1\x20501\x20Not\x20Implemente
+SF:d\r\nServer:\x20sfcHttpd\r\nContent-Length:\x200\r\n\r\n")%r(SIPOptions
+SF:,45,"HTTP/1\.1\x20501\x20Not\x20Implemented\r\nServer:\x20sfcHttpd\r\nC
+SF:ontent-Length:\x200\r\n\r\n");
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 89.06 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:56 CST
+Nmap scan report for 192.168.149.125
+Host is up (0.00019s latency).
+All 1000 scanned ports on 192.168.149.125 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 5.95 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:56 CST
+Nmap scan report for 192.168.149.128
+Host is up.
+All 1000 scanned ports on 192.168.149.128 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 101.30 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 17:58 CST
+Nmap scan report for 192.168.149.130
+Host is up (0.0010s latency).
+Not shown: 986 closed ports
+PORT      STATE SERVICE     VERSION
+135/tcp   open  msrpc       Microsoft Windows RPC
+139/tcp   open  netbios-ssn
+445/tcp   open  netbios-ssn
+554/tcp   open  rtsp?
+1025/tcp  open  msrpc       Microsoft Windows RPC
+1026/tcp  open  msrpc       Microsoft Windows RPC
+1027/tcp  open  msrpc       Microsoft Windows RPC
+1028/tcp  open  msrpc       Microsoft Windows RPC
+1029/tcp  open  msrpc       Microsoft Windows RPC
+1030/tcp  open  msrpc       Microsoft Windows RPC
+2869/tcp  open  http        Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+6001/tcp  open  X11:1?
+6699/tcp  open  napster?
+10243/tcp open  http        Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_html-title: Not Found
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: ZHAOKANG-PC, NetBIOS user: <unknown>, NetBIOS MAC: 8c:89:a5:39:5c:8d
+| smb-os-discovery:  
+|   OS: Windows 7 Ultimate 7600 (Windows 7 Ultimate 6.1)
+|   Name: WORKGROUP\ZHAOKANG-PC
+|_  System time: 2012-08-23 17:59:47 UTC+8
+|_smbv2-enabled: Server supports SMBv2 protocol
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 97.52 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:00 CST
+Nmap scan report for 192.168.149.131
+Host is up.
+All 1000 scanned ports on 192.168.149.131 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 101.29 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:01 CST
+Nmap scan report for 192.168.149.139
+Host is up (0.0023s latency).
+Not shown: 995 filtered ports
+PORT      STATE SERVICE     VERSION
+135/tcp   open  msrpc       Microsoft Windows RPC
+139/tcp   open  netbios-ssn
+445/tcp   open  netbios-ssn
+1935/tcp  open  tcpwrapped
+49156/tcp open  unknown
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port49156-TCP:V=5.21%I=7%D=8/23%Time=5035FFA8%P=x86_64-unknown-linux-gnu%r(GetRequest,E1,"HTTP/1\.0\x20500\x20Internal\x20Server\x20Error\r\nSERVE
+SF:R:\x206\.1\.7601\x202/Service\x20Pack\x201,\x20UPnP/1\.0,\x20Portable\x
+SF:20SDK\x20for\x20UPnP\x20devices/1\.4\.7\r\nCONTENT-LENGTH:\x2060\r\nCON
+SF:TENT-TYPE:\x20text/html\r\n\r\n<html><body><h1>500\x20Internal\x20Serve
+SF:r\x20Error</h1></body></html>")%r(HTTPOptions,D5,"HTTP/1\.0\x20501\x20N
+SF:ot\x20Implemented\r\nSERVER:\x206\.1\.7601\x202/Service\x20Pack\x201,\x
+SF:20UPnP/1\.0,\x20Portable\x20SDK\x20for\x20UPnP\x20devices/1\.4\.7\r\nCO
+SF:NTENT-LENGTH:\x2054\r\nCONTENT-TYPE:\x20text/html\r\n\r\n<html><body><h
+SF:1>501\x20Not\x20Implemented</h1></body></html>")%r(RPCCheck,CD,"HTTP/0\
+SF:.0\x20400\x20Bad\x20Request\r\nSERVER:\x206\.1\.7601\x202/Service\x20Pa
+SF:ck\x201,\x20UPnP/1\.0,\x20Portable\x20SDK\x20for\x20UPnP\x20devices/1\.
+SF:4\.7\r\nCONTENT-LENGTH:\x2050\r\nCONTENT-TYPE:\x20text/html\r\n\r\n<htm
+SF:l><body><h1>400\x20Bad\x20Request</h1></body></html>")%r(FourOhFourRequ
+SF:est,E1,"HTTP/1\.0\x20500\x20Internal\x20Server\x20Error\r\nSERVER:\x206
+SF:\.1\.7601\x202/Service\x20Pack\x201,\x20UPnP/1\.0,\x20Portable\x20SDK\x
+SF:20for\x20UPnP\x20devices/1\.4\.7\r\nCONTENT-LENGTH:\x2060\r\nCONTENT-TY
+SF:PE:\x20text/html\r\n\r\n<html><body><h1>500\x20Internal\x20Server\x20Er
+SF:ror</h1></body></html>");
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: MISSMUCH-PC, NetBIOS user: <unknown>, NetBIOS MAC: 8c:89:a5:39:72:6e
+|_smbv2-enabled: Server supports SMBv2 protocol
+| smb-os-discovery:  
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   Name: WORKGROUP\MISSMUCH-PC
+|_  System time: 2012-08-23 18:03:33 UTC+8
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 147.80 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:04 CST
+Nmap scan report for 192.168.149.141
+Host is up (0.0022s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE    VERSION
+843/tcp  open  unknown
+6000/tcp open  tcpwrapped
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port843-TCP:V=5.21%I=7%D=8/23%Time=50360078%P=x86_64-unknown-linux-gnu%
+SF:r(GetRequest,7A,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:\
+SF:x20http://127\.0\.0\.1:8908/\r\nConnection:\x20Close\r\nContent-Length:
+SF:\x200\r\nServer:\x20IKUCMC\r\n\r\n")%r(HTTPOptions,7A,"HTTP/1\.0\x20302
+SF:\x20Moved\x20Temporarily\r\nLocation:\x20http://127\.0\.0\.1:8908/\r\nC
+SF:onnection:\x20Close\r\nContent-Length:\x200\r\nServer:\x20IKUCMC\r\n\r\
+SF:n")%r(FourOhFourRequest,9D,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\
+SF:nLocation:\x20http://127\.0\.0\.1:8908/nice%20ports%2C/Tri%6Eity\.txt%2
+SF:ebak\r\nConnection:\x20Close\r\nContent-Length:\x200\r\nServer:\x20IKUC
+SF:MC\r\n\r\n");
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 94.93 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:05 CST
+Nmap scan report for guide.split.hdu.edu.cn (192.168.149.145)
+Host is up (0.00092s latency).
+Not shown: 979 closed ports
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Microsoft IIS httpd
+|_html-title: Site doesn't have a title (text/html).
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds  Microsoft Windows 2003 or 2008 microsoft-ds
+1025/tcp open  msrpc         Microsoft Windows RPC
+1028/tcp open  unknown
+1029/tcp open  ms-lsa?
+1030/tcp open  iad1?
+1031/tcp open  oracle        Oracle Database
+1521/tcp open  oracle-tns    Oracle TNS Listener 10.1.0.2.0 (for 32-bit Windows)
+2100/tcp open  tcpwrapped
+3050/tcp open  firebird      Firebird RDBMS Protocol version 10
+3306/tcp open  mysql         MySQL (unauthorized)
+3389/tcp open  microsoft-rdp Microsoft Terminal Service
+5500/tcp open  http          Oracle Application Server httpd 9.0.4.0.0
+|_html-title: Oracle Application Server Containers for J2EE 10g
+5560/tcp open  http          Oracle Application Server httpd 9.0.4.0.0
+|_html-title: Oracle Application Server Containers for J2EE 10g
+8080/tcp open  http-proxy?
+8081/tcp open  http          Microsoft IIS webserver 6.0
+|_html-title: \xE9\xA1\xB9\xE7\x9B\xAE\xE6\xA6\x82\xE5\x86\xB5
+8082/tcp open  http          Microsoft IIS webserver 6.0
+|_html-title: Error
+8083/tcp open  http          Microsoft IIS webserver 6.0
+|_html-title: \xCA\xD7\xD2\xB3
+8090/tcp open  http          Apache httpd 2.2.15 ((Win32))
+|_html-title: Site doesn't have a title (text/html).
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1029-TCP:V=5.21%I=7%D=8/23%Time=5036008C%P=x86_64-unknown-linux-gnu
+SF:%r(NULL,30,"0\0\0\0\x01\0\x01\0\x01\0\x01\0\x01\0\0\0\0\0\0\0\x01\0\0\0
+SF:T\x82b\xab\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(DNSVersionBindRe
+SF:q,30,"0\0\0\0\x01\0\x01\0\x01\0\x01\0\x01\0\0\0\0\0\0\0\x01\0\0\0T\x82b
+SF:\xab\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(GenericLines,30,"0\0\0
+SF:\0\x01\0\x01\0\x01\0\x01\0\x01\0\0\0\0\0\0\0\x01\0\0\0\x9a\xadb\xab\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(GetRequest,30,"0\0\0\0\x01\0\x
+SF:01\0\x01\0\x01\0\x01\0\0\0\0\0\0\0\x01\0\0\0\"\xc1b\xab\0\0\0\0\0\0\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0")%r(HTTPOptions,30,"0\0\0\0\x01\0\x01\0\x01\0\
+SF:x01\0\x01\0\0\0\0\0\0\0\x01\0\0\0\"\xc1b\xab\0\0\0\0\0\0\0\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0")%r(RTSPRequest,30,"0\0\0\0\x01\0\x01\0\x01\0\x01\0\x01\0
+SF:\0\0\0\0\0\0\x01\0\0\0\xa4\xd5b\xab\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+SF:\0\0")%r(RPCCheck,30,"0\0\0\0\x01\0\x01\0\x01\0\x01\0\x01\0\0\0\0\0\0\0
+SF:\x01\0\0\0\x9f\xe8b\xab\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(DNS
+SF:StatusRequest,30,"0\0\0\0\x01\0\x01\0\x01\0\x01\0\x01\0\0\0\0\0\0\0\x01
+SF:\0\0\0\x95\xfcb\xab\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(Help,30
+SF:,"0\0\0\0\x01\0\x01\0\x01\0\x01\0\x01\0\0\0\0\0\0\0\x01\0\0\0\xaf\x0fc\
+SF:xab\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(SSLSessionReq,30,"0\0\0
+SF:\0\x01\0\x01\0\x01\0\x01\0\x01\0\0\0\0\0\0\0\x01\0\0\0\xaf\x0fc\xab\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(SMBProgNeg,30,"0\0\0\0\x01\0\x
+SF:01\0\x01\0\x01\0\x01\0\0\0\0\0\0\0\x01\0\0\0\xa5#c\xab\0\0\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0\0\0\0\0\0")%r(X11Probe,30,"0\0\0\0\x01\0\x01\0\x01\0\x01\
+SF:0\x01\0\0\0\0\0\0\0\x01\0\0\0<7c\xab\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\
+SF:0\0\0")%r(FourOhFourRequest,30,"0\0\0\0\x01\0\x01\0\x01\0\x01\0\x01\0\0
+SF:\0\0\0\0\0\x01\0\0\0\xb5Jc\xab\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
+SF:)%r(LPDString,30,"0\0\0\0\x01\0\x01\0\x01\0\x01\0\x01\0\0\0\0\0\0\0\x01
+SF:\0\0\0L\^c\xab\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(LDAPBindReq,
+SF:30,"0\0\0\0\x01\0\x01\0\x01\0\x01\0\x01\0\0\0\0\0\0\0\x01\0\0\0\xba\^c\
+SF:xab\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(SIPOptions,30,"0\0\0\0\
+SF:x01\0\x01\0\x01\0\x01\0\x01\0\0\0\0\0\0\0\x01\0\0\0<sc\xab\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0\0\0\0\0\0\0\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1030-TCP:V=5.21%I=7%D=8/23%Time=5036008C%P=x86_64-unknown-linux-gnu
+SF:%r(NULL,30,"0\0\0\0\x01\0\x01\0\x01\0\x01\0\x01\0\0\0\0\0\0\0\x01\0\0\0
+SF:%\x82b\xab\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(GenericLines,30,
+SF:"0\0\0\0\x01\0\x01\0\x01\0\x01\0\x01\0\0\0\0\0\0\0\x01\0\0\0%\x82b\xab\
+SF:0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(GetRequest,30,"0\0\0\0\x01\
+SF:0\x01\0\x01\0\x01\0\x01\0\0\0\0\0\0\0\x01\0\0\0,\xadb\xab\0\0\0\0\0\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(HTTPOptions,6C,"0\0\0\0\x01\0\x01\0\x01\
+SF:0\x01\0\x01\0\0\0\0\0\0\0\x01\0\0\0\xb4\xc0b\xab\0\0\0\0\0\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0\0\0<\0\0\0\x01\0\0\0\n\x01\x01\0\x02\0\0\0\0\0\0\0\x01\0\
+SF:0\0\xb4\xc0b\xab\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x01\0\
+SF:0\0\x01\0\0\0")%r(RTSPRequest,6C,"0\0\0\0\x01\0\x01\0\x01\0\x01\0\x01\0
+SF:\0\0\0\0\0\0\x01\0\0\0\xaa\xd4b\xab\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+SF:\0\0<\0\0\0\x01\0\0\0\n\x01\x01\0\x02\0\0\0\0\0\0\0\x01\0\0\0\xaa\xd4b\
+SF:xab\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x01\0\0\0\x01\0\0\0
+SF:")%r(RPCCheck,6C,"0\0\0\0\x01\0\x01\0\x01\0\x01\0\x01\0\0\0\0\0\0\0\x01
+SF:\0\0\0A\xe8b\xab\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0<\0\0\0\x01\0\0
+SF:\0\n\x01\x01\0\x02\0\0\0\0\0\0\0\x01\0\0\0A\xe8b\xab\0\0\0\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x01\0\0\0\x01\0\0\0")%r(DNSVersionBindReq
+SF:,30,"0\0\0\0\x01\0\x01\0\x01\0\x01\0\x01\0\0\0\0\0\0\0\x01\0\0\0\xc9\xf
+SF:bb\xab\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(DNSStatusRequest,30,
+SF:"0\0\0\0\x01\0\x01\0\x01\0\x01\0\x01\0\0\0\0\0\0\0\x01\0\0\0\xe4\x0ec\x
+SF:ab\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(Help,30,"0\0\0\0\x01\0\x
+SF:01\0\x01\0\x01\0\x01\0\0\0\0\0\0\0\x01\0\0\0\|\"c\xab\0\0\0\0\0\0\0\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0")%r(SSLSessionReq,30,"0\0\0\0\x01\0\x01\0\x01\0\
+SF:x01\0\x01\0\0\0\0\0\0\0\x01\0\0\0\xc8\?c\xab\0\0\0\0\0\0\0\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0")%r(SMBProgNeg,6C,"0\0\0\0\x01\0\x01\0\x01\0\x01\0\x01\0\
+SF:0\0\0\0\0\0\x01\0\0\0PSc\xab\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0<\0
+SF:\0\0\x01\0\0\0\n\x01\x01\0\x02\0\0\0\0\0\0\0\x01\0\0\0PSc\xab\0\0\0\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x01\0\0\0\x01\0\0\0")%r(X11Probe
+SF:,30,"0\0\0\0\x01\0\x01\0\x01\0\x01\0\x01\0\0\0\0\0\0\0\x01\0\0\0Egc\xab
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0");
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: GIDE-DELL, NetBIOS user: <unknown>, NetBIOS MAC: 00:1e:c9:da:7b:d3
+| smb-os-discovery:  
+|   OS: Windows Server 2003 3790 Service Pack 2 (Windows Server 2003 5.2)
+|   Name: GIDE\GIDE-DELL
+|_  System time: 2012-08-23 18:08:19 UTC+8
+|_smbv2-enabled: Server doesn't support SMBv2 protocol
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 133.57 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:08 CST
+Nmap scan report for 192.168.149.147
+Host is up (0.0015s latency).
+Not shown: 986 closed ports
+PORT      STATE SERVICE       VERSION
+80/tcp    open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_html-title: Not Found
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn
+445/tcp   open  netbios-ssn
+1433/tcp  open  ms-sql-s      Microsoft SQL Server 2008 10.0.1600; RTM
+2383/tcp  open  ms-olap4?
+3389/tcp  open  microsoft-rdp Microsoft Terminal Service
+6112/tcp  open  dtspc?
+49152/tcp open  msrpc         Microsoft Windows RPC
+49153/tcp open  msrpc         Microsoft Windows RPC
+49154/tcp open  msrpc         Microsoft Windows RPC
+49155/tcp open  msrpc         Microsoft Windows RPC
+49160/tcp open  msrpc         Microsoft Windows RPC
+49161/tcp open  msrpc         Microsoft Windows RPC
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: EVIL-PC, NetBIOS user: <unknown>, NetBIOS MAC: 8c:89:a5:3b:5d:0b
+|_smbv2-enabled: Server supports SMBv2 protocol
+| smb-os-discovery:  
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   Name: WORKGROUP\EVIL-PC
+|_  System time: 2012-08-23 18:08:50 UTC+8
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 54.84 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:09 CST
+Nmap scan report for 192.168.149.149
+Host is up (0.0012s latency).
+Not shown: 993 filtered ports
+PORT      STATE SERVICE         VERSION
+843/tcp   open  unknown
+902/tcp   open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp   open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+3389/tcp  open  microsoft-rdp   Microsoft Terminal Service
+6001/tcp  open  X11:1?
+9000/tcp  open  tcpwrapped
+16000/tcp open  unknown
+Service Info: OS: Windows
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 157.92 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:11 CST
+Nmap scan report for 192.168.149.151
+Host is up.
+All 1000 scanned ports on 192.168.149.151 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 101.31 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:13 CST
+Nmap scan report for 192.168.149.152
+Host is up (0.0018s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE     VERSION
+135/tcp open  msrpc       Microsoft Windows RPC
+139/tcp open  netbios-ssn
+445/tcp open  netbios-ssn
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: YSY-PC, NetBIOS user: <unknown>, NetBIOS MAC: 00:24:7e:04:da:fd
+| smb-os-discovery:  
+|   OS: Windows 7 Ultimate 7600 (Windows 7 Ultimate 6.1)
+|   Name: WORKGROUP\YSY-PC
+|_  System time: 2012-08-23 18:13:39 UTC+8
+|_smbv2-enabled: Server supports SMBv2 protocol
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 58.19 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:14 CST
+Nmap scan report for 192.168.149.152
+Host is up (0.00093s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE     VERSION
+135/tcp open  msrpc       Microsoft Windows RPC
+139/tcp open  netbios-ssn
+445/tcp open  netbios-ssn
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: YSY-PC, NetBIOS user: <unknown>, NetBIOS MAC: 00:24:7e:04:da:fd
+| smb-os-discovery:  
+|   OS: Windows 7 Ultimate 7600 (Windows 7 Ultimate 6.1)
+|   Name: WORKGROUP\YSY-PC
+|_  System time: 2012-08-23 18:14:29 UTC+8
+|_smbv2-enabled: Server supports SMBv2 protocol
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 50.76 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:15 CST
+Nmap scan report for 192.168.149.159
+Host is up (0.0014s latency).
+Not shown: 991 closed ports
+PORT      STATE    SERVICE         VERSION
+7/tcp     open     echo
+80/tcp    open     http            Virata-EmWeb 6.2.1 (HP LaserJet M1522nf MFP printer http config)
+|_html-title: HP LaserJet M1522nf MFP&nbsp;&nbsp;&nbsp;192.168.149.159
+515/tcp   open     printer
+8291/tcp  open     unknown
+8292/tcp  filtered unknown
+8888/tcp  open     sun-answerbook?
+9100/tcp  open     jetdirect?
+9999/tcp  open     abyss?
+10002/tcp filtered unknown
+Service Info: Device: printer
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 148.69 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:17 CST
+Nmap scan report for 192.168.149.165
+Host is up (0.00091s latency).
+Not shown: 997 filtered ports
+PORT     STATE SERVICE      VERSION
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds Microsoft Windows XP microsoft-ds
+8383/tcp open  tcpwrapped
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: PC-200404030928, NetBIOS user: <unknown>, NetBIOS MAC: 00:16:ec:e9:75:b2
+| smb-os-discovery:  
+|   OS: Windows XP (Windows 2000 LAN Manager)
+|   Name: WORKGROUP\PC-200404030928
+|_  System time: 2012-08-23 18:18:04 UTC+8
+|_smbv2-enabled: Server doesn't support SMBv2 protocol
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 59.47 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:18 CST
+Nmap scan report for 192.168.149.174
+Host is up (0.00090s latency).
+All 1000 scanned ports on 192.168.149.174 are closed
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1.25 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:18 CST
+Nmap scan report for 192.168.149.182
+Host is up (0.00091s latency).
+Not shown: 997 filtered ports
+PORT     STATE  SERVICE     VERSION
+139/tcp  open   netbios-ssn
+445/tcp  open   netbios-ssn
+2869/tcp closed unknown
+
+Host script results:
+|_nbstat: NetBIOS name: WWW-AEB95E33D47, NetBIOS user: <unknown>, NetBIOS MAC: 00:16:ec:d1:3a:10
+| smb-os-discovery:  
+|   OS: Windows XP (Windows 2000 LAN Manager)
+|   Name: WORKGROUP\WWW-AEB95E33D47
+|_  System time: 2012-08-23 18:19:04 UTC+8
+|_smbv2-enabled: Server doesn't support SMBv2 protocol
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 58.97 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:19 CST
+Nmap scan report for 192.168.149.188
+Host is up (0.32s latency).
+All 1000 scanned ports on 192.168.149.188 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 36.87 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:20 CST
+Nmap scan report for 192.168.149.194
+Host is up.
+All 1000 scanned ports on 192.168.149.194 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 101.30 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:22 CST
+Nmap scan report for 192.168.149.202
+Host is up.
+All 1000 scanned ports on 192.168.149.202 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 101.28 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:23 CST
+Nmap scan report for 192.168.149.204
+Host is up (0.15s latency).
+All 1000 scanned ports on 192.168.149.204 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 31.55 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:24 CST
+Nmap scan report for 192.168.149.205
+Host is up (0.0011s latency).
+Not shown: 995 filtered ports
+PORT     STATE SERVICE     VERSION
+135/tcp  open  msrpc       Microsoft Windows RPC
+139/tcp  open  netbios-ssn
+445/tcp  open  netbios-ssn
+3306/tcp open  mysql       MySQL (unauthorized)
+5357/tcp open  http        Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_html-title: Service Unavailable
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: SX-PC, NetBIOS user: <unknown>, NetBIOS MAC: 00:1f:c6:41:c6:d4
+| smb-os-discovery:  
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   Name: WORKGROUP\SX-PC
+|_  System time: 2012-08-23 18:24:28 UTC+8
+|_smbv2-enabled: Server supports SMBv2 protocol
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 63.68 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:25 CST
+Nmap scan report for 192.168.149.208
+Host is up (0.0012s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 4.3 (protocol 2.0)
+| ssh-hostkey: 1024 5f:7a:14:e2:03:25:c9:21:ef:b5:fe:16:1f:f7:0f:0d (DSA)
+|_2048 58:86:0d:ba:06:4f:88:31:b5:d8:63:67:50:4b:83:d9 (RSA)
+80/tcp   open  http    Apache httpd 2.2.3 ((CentOS))
+|_html-title: Apache HTTP Server Test Page powered by CentOS
+111/tcp  open  rpcbind
+| rpcinfo:  
+| 100000  2    111/udp  rpcbind  
+| 100024  1    889/udp  status   
+| 100000  2    111/tcp  rpcbind  
+|_100024  1    892/tcp  status   
+3306/tcp open  mysql   MySQL 5.0.95-log
+| mysql-info: Protocol: 10
+| Version: 5.0.95-log
+| Thread ID: 7
+| Some Capabilities: Connect with DB, Compress, Transactions, Secure Connection
+| Status: Autocommit
+|_Salt: 5akv0(u9[@l}Ti6oNt"G
+8009/tcp open  ajp13   Apache Jserv (Protocol v1.3)
+8080/tcp open  http    Apache Tomcat/Coyote JSP engine 1.1
+|_html-title: Apache Tomcat
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 12.40 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:25 CST
+Nmap scan report for 192.168.149.209
+Host is up (0.0017s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 4.3 (protocol 2.0)
+| ssh-hostkey: 1024 5f:7a:14:e2:03:25:c9:21:ef:b5:fe:16:1f:f7:0f:0d (DSA)
+|_2048 58:86:0d:ba:06:4f:88:31:b5:d8:63:67:50:4b:83:d9 (RSA)
+80/tcp   open  http    Apache httpd 2.2.3 ((CentOS))
+|_html-title: Apache HTTP Server Test Page powered by CentOS
+111/tcp  open  rpcbind
+| rpcinfo:  
+| 100000  2    111/udp  rpcbind  
+| 100024  1    891/udp  status   
+| 100000  2    111/tcp  rpcbind  
+|_100024  1    894/tcp  status   
+3306/tcp open  mysql   MySQL 5.0.95-log
+| mysql-info: Protocol: 10
+| Version: 5.0.95-log
+| Thread ID: 7
+| Some Capabilities: Connect with DB, Compress, Transactions, Secure Connection
+| Status: Autocommit
+|_Salt: dU]TmFW`_>Sg0U>sMc.V
+8009/tcp open  ajp13   Apache Jserv (Protocol v1.3)
+8080/tcp open  http    Apache Tomcat/Coyote JSP engine 1.1
+|_html-title: Apache Tomcat
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 12.39 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:25 CST
+Nmap scan report for 192.168.149.211
+Host is up (0.0011s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 4.3 (protocol 2.0)
+| ssh-hostkey: 1024 5f:7a:14:e2:03:25:c9:21:ef:b5:fe:16:1f:f7:0f:0d (DSA)
+|_2048 58:86:0d:ba:06:4f:88:31:b5:d8:63:67:50:4b:83:d9 (RSA)
+80/tcp   open  http    Apache httpd 2.2.3 ((CentOS))
+|_html-title: Apache HTTP Server Test Page powered by CentOS
+111/tcp  open  rpcbind
+| rpcinfo:  
+| 100000  2    111/udp  rpcbind  
+| 100024  1    788/udp  status   
+| 100000  2    111/tcp  rpcbind  
+|_100024  1    791/tcp  status   
+3306/tcp open  mysql   MySQL 5.0.95-log
+| mysql-info: Protocol: 10
+| Version: 5.0.95-log
+| Thread ID: 7
+| Some Capabilities: Connect with DB, Compress, Transactions, Secure Connection
+| Status: Autocommit
+|_Salt: 0f1avNb$+HhURy.u$N>.
+8009/tcp open  ajp13   Apache Jserv (Protocol v1.3)
+8080/tcp open  http    Apache Tomcat/Coyote JSP engine 1.1
+|_html-title: Apache Tomcat
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 12.41 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:25 CST
+Nmap scan report for 192.168.149.212
+Host is up (0.0012s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 4.3 (protocol 2.0)
+| ssh-hostkey: 1024 5f:7a:14:e2:03:25:c9:21:ef:b5:fe:16:1f:f7:0f:0d (DSA)
+|_2048 58:86:0d:ba:06:4f:88:31:b5:d8:63:67:50:4b:83:d9 (RSA)
+80/tcp   open  http    Apache httpd 2.2.3 ((CentOS))
+|_html-title: Apache HTTP Server Test Page powered by CentOS
+111/tcp  open  rpcbind
+| rpcinfo:  
+| 100000  2    111/udp  rpcbind  
+| 100024  1    892/udp  status   
+| 100000  2    111/tcp  rpcbind  
+|_100024  1    895/tcp  status   
+3306/tcp open  mysql   MySQL 5.0.95-log
+| mysql-info: Protocol: 10
+| Version: 5.0.95-log
+| Thread ID: 7
+| Some Capabilities: Connect with DB, Compress, Transactions, Secure Connection
+| Status: Autocommit
+|_Salt: `RV=k$m{CyX.{BwRslER
+8009/tcp open  ajp13   Apache Jserv (Protocol v1.3)
+8080/tcp open  http    Apache Tomcat/Coyote JSP engine 1.1
+|_html-title: Apache Tomcat
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 12.40 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:26 CST
+Nmap scan report for 192.168.149.215
+Host is up (0.0010s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE VERSION
+22/tcp  open  ssh     OpenSSH 4.3 (protocol 2.0)
+| ssh-hostkey: 1024 5b:1f:78:2c:13:e1:e5:ef:75:6c:63:c2:32:cc:49:31 (DSA)
+|_2048 57:76:d6:59:63:89:3f:89:4d:34:5e:cb:fe:cf:ec:e5 (RSA)
+111/tcp open  rpcbind
+| rpcinfo:  
+| 100000  2    111/udp  rpcbind  
+| 100024  1    647/udp  status   
+| 100000  2    111/tcp  rpcbind  
+|_100024  1    650/tcp  status   
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 7.33 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:26 CST
+Nmap scan report for 192.168.149.217
+Host is up (0.0018s latency).
+Not shown: 995 filtered ports
+PORT     STATE SERVICE     VERSION
+135/tcp  open  msrpc       Microsoft Windows RPC
+139/tcp  open  netbios-ssn
+445/tcp  open  netbios-ssn
+6001/tcp open  X11:1?
+6112/tcp open  dtspc?
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: PINGLQ-PC, NetBIOS user: <unknown>, NetBIOS MAC: 44:37:e6:3c:1e:0b
+|_smbv2-enabled: Server supports SMBv2 protocol
+| smb-os-discovery:  
+|   OS: Windows 7 Ultimate 7600 (Windows 7 Ultimate 6.1)
+|   Name: WORKGROUP\PINGLQ-PC
+|_  System time: 2012-08-23 18:26:26 UTC+8
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 58.62 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:27 CST
+Nmap scan report for 192.168.149.220
+Host is up (0.049s latency).
+Not shown: 995 closed ports
+PORT   STATE SERVICE VERSION
+7/tcp  open  echo
+13/tcp open  daytime
+21/tcp open  ftp     OpenBSD ftpd 6.4 (Linux port 6.4)
+23/tcp open  telnet?
+37/tcp open  time?
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port23-TCP:V=5.21%I=7%D=8/23%Time=50360588%P=x86_64-unknown-linux-gnu%r
+SF:(NULL,44,"\xff\xfd\x01\xff\xfd\x1f\xff\xfd!\xff\xfb\x01\xff\xfb\x03\r\r
+SF:\nKernel\x202\.6\.28\.6\x20on\x20\(/dev/pts/0\)\r\n\rurbetter\x20login:
+SF:\x20")%r(GenericLines,68,"\xff\xfd\x01\xff\xfd\x1f\xff\xfd!\xff\xfb\x01
+SF:\xff\xfb\x03\r\r\nKernel\x202\.6\.28\.6\x20on\x20\(/dev/pts/0\)\r\n\rur
+SF:better\x20login:\x20\r\n\r\nurbetter\x20login:\x20urbetter\x20login:\x2
+SF:0")%r(GetRequest,60,"\xff\xfd\x01\xff\xfd\x1f\xff\xfd!\xff\xfb\x01\xff\
+SF:xfb\x03\r\r\nKernel\x202\.6\.28\.6\x20on\x20\(/dev/pts/1\)\r\n\rurbette
+SF:r\x20login:\x20GET\x20/\x20HTTP/1\.0\r\n\r\nPassword:\x20")%r(HTTPOptio
+SF:ns,5A,"\xff\xfd\x01\xff\xfd\x1f\xff\xfd!\xff\xfb\x01\xff\xfb\x03\r\r\nK
+SF:ernel\x202\.6\.28\.6\x20on\x20\(/dev/pts/0\)\r\n\rOPTIONS\x20/\x20HTTP/
+SF:1\.0\r\n\r\nurbetter\x20login:\x20")%r(RTSPRequest,5A,"\xff\xfd\x01\xff
+SF:\xfd\x1f\xff\xfd!\xff\xfb\x01\xff\xfb\x03\r\r\nKernel\x202\.6\.28\.6\x2
+SF:0on\x20\(/dev/pts/1\)\r\n\rOPTIONS\x20/\x20RTSP/1\.0\r\n\r\nurbetter\x2
+SF:0login:\x20")%r(RPCCheck,3E,"\xff\xfd\x01\xff\xfd\x1f\xff\xfd!\xff\xfb\
+SF:x01\xff\xfb\x03\r\r\nKernel\x202\.6\.28\.6\x20on\x20\(/dev/pts/0\)\r\n\
+SF:r\x80\^@\^@\(r\xfe\^\]")%r(DNSVersionBindReq,46,"\xff\xfd\x01\xff\xfd\x
+SF:1f\xff\xfd!\xff\xfb\x01\xff\xfb\x03\r\r\nKernel\x202\.6\.28\.6\x20on\x2
+SF:0\(/dev/pts/0\)\r\n\rurbetter\x20login:\x20\^C")%r(DNSStatusRequest,5E,
+SF:"\xff\xfd\x01\xff\xfd\x1f\xff\xfd!\xff\xfb\x01\xff\xfb\x03\r\r\nKernel\
+SF:x202\.6\.28\.6\x20on\x20\(/dev/pts/0\)\r\n\rurbetter\x20login:\x20\^@\^
+SF:L\^@\^@\^P\^@\^@\^@\^@\^@\^@\^@\^@")%r(Help,4A,"\xff\xfd\x01\xff\xfd\x1
+SF:f\xff\xfd!\xff\xfb\x01\xff\xfb\x03\r\r\nKernel\x202\.6\.28\.6\x20on\x20
+SF:\(/dev/pts/0\)\r\n\rHELP\r\nurbetter\x20login:\x20")%r(SSLSessionReq,48
+SF:,"\xff\xfd\x01\xff\xfd\x1f\xff\xfd!\xff\xfb\x01\xff\xfb\x03\r\r\nKernel
+SF:\x202\.6\.28\.6\x20on\x20\(/dev/pts/1\)\r\n\rurbetter\x20login:\x20\^C\
+SF:^A")%r(SMBProgNeg,115,"\xff\xfd\x01\xff\xfd\x1f\xff\xfd!\xff\xfb\x01\xf
+SF:f\xfb\x03\r\r\nKernel\x202\.6\.28\.6\x20on\x20\(/dev/pts/0\)\r\n\rurbet
+SF:ter\x20login:\x20\^@\^@\^@\xa4Br\^@\^@\^@\^@\^H\^A@\^@\^@\^@\^@\^@\^@\^
+SF:@\^@\^@\^@\^@\^@\^@\^@@\^F\^@\^@\^A\^@\^@\x81\^@\^BPC\x20NETWORK\x20PRO
+SF:GRAM\x201\.0\^@\^BMICROSOFT\x20NETWORKS\x201\.03\^@\^BMICROSOFT\x20NETW
+SF:ORKS\x203\.0\^@\^BLANMAN1\.0\^@\^BLM1\.2X002\^@\^BSamba\^@\^BNT\x20LANM
+SF:AN\x201\.0\^@\^BNT\x20LM\x200\.12");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port37-TCP:V=5.21%I=7%D=8/23%Time=50360582%P=x86_64-unknown-linux-gnu%r
+SF:(NULL,4,"\xd3\xe0\x83\xf3");
+Service Info: Host: urbetter; OSs: Unix, Linux
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 103.63 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:28 CST
+Nmap scan report for 192.168.149.221
+Host is up (0.0044s latency).
+Not shown: 997 closed ports
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd
+|_ftp-bounce: no banner
+23/tcp open  telnet?
+80/tcp open  http    Boa HTTPd 0.94.13
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port23-TCP:V=5.21%I=7%D=8/23%Time=503605F0%P=x86_64-unknown-linux-gnu%r
+SF:(NULL,1F,"\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\r\r\ngzsd641
+SF:0\x20login:\x20")%r(GenericLines,43,"\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x
+SF:01\xff\xfb\x03\r\r\ngzsd6410\x20login:\x20\r\n\r\ngzsd6410\x20login:\x2
+SF:0gzsd6410\x20login:\x20")%r(GetRequest,31,"\xff\xfd\x01\xff\xfd\x1f\xff
+SF:\xfb\x01\xff\xfb\x03\r\r\nGET\x20/\x20HTTP/1\.0\r\n\r\ngzsd6410\x20logi
+SF:n:\x20");
+Service Info: OS: Unix
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 54.91 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:29 CST
+Nmap scan report for 192.168.149.222
+Host is up (0.0012s latency).
+Not shown: 987 closed ports
+PORT      STATE SERVICE       VERSION
+80/tcp    open  http          Apache httpd 2.2.21 ((Win32) PHP/5.3.8)
+|_html-title: WAMPSERVER Homepage
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn
+445/tcp   open  netbios-ssn
+912/tcp   open  vmware-auth   VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+3306/tcp  open  mysql         MySQL (unauthorized)
+3389/tcp  open  microsoft-rdp Microsoft Terminal Service
+49152/tcp open  msrpc         Microsoft Windows RPC
+49153/tcp open  msrpc         Microsoft Windows RPC
+49154/tcp open  msrpc         Microsoft Windows RPC
+49156/tcp open  msrpc         Microsoft Windows RPC
+49157/tcp open  msrpc         Microsoft Windows RPC
+49158/tcp open  msrpc         Microsoft Windows RPC
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: WSN325-PC, NetBIOS user: <unknown>, NetBIOS MAC: 00:24:1d:ac:0f:ed
+| smb-os-discovery:  
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   Name: WORKGROUP\WSN325-PC
+|_  System time: 2012-08-23 18:30:20 UTC+8
+|_smbv2-enabled: Server supports SMBv2 protocol
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 55.44 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:30 CST
+Nmap scan report for 192.168.149.224
+Host is up (0.00081s latency).
+Not shown: 994 filtered ports
+PORT     STATE  SERVICE         VERSION
+443/tcp  open   ssl/https?
+902/tcp  open   ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp  open   vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+1947/tcp open   http            Aladdin HASP license manager 12.49
+|_html-title: 403 Forbidden
+2869/tcp closed unknown
+3306/tcp open   mysql           MySQL (unauthorized)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port443-TCP:V=5.21%T=SSL%I=7%D=8/23%Time=50360668%P=x86_64-unknown-linux-gnu%r(GetRequest,88,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Thu,\x2023
+SF:\x20Aug\x202012\x2010:31:30\x20GMT\r\nConnection:\x20close\r\nContent-T
+SF:ype:\x20text;\x20charset=plain\r\nContent-Length:\x200\r\n\r\n")%r(HTTP
+SF:Options,BB,"HTTP/1\.1\x20501\x20Not\x20Implemented\r\nDate:\x20Thu,\x20
+SF:23\x20Aug\x202012\x2010:31:35\x20GMT\r\nConnection:\x20close\r\nContent
+SF:-Type:\x20text/html\r\nContent-Length:\x2054\r\n\r\n<HTML><BODY><H1>501
+SF:\x20Not\x20Implemented</H1></BODY></HTML>")%r(RTSPRequest,BB,"HTTP/1\.1
+SF:\x20501\x20Not\x20Implemented\r\nDate:\x20Thu,\x2023\x20Aug\x202012\x20
+SF:10:31:35\x20GMT\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r
+SF:\nContent-Length:\x2054\r\n\r\n<HTML><BODY><H1>501\x20Not\x20Implemente
+SF:d</H1></BODY></HTML>")%r(FourOhFourRequest,88,"HTTP/1\.1\x20404\x20Not\
+SF:x20Found\r\nDate:\x20Thu,\x2023\x20Aug\x202012\x2010:32:12\x20GMT\r\nCo
+SF:nnection:\x20close\r\nContent-Type:\x20text;\x20charset=plain\r\nConten
+SF:t-Length:\x200\r\n\r\n")%r(SIPOptions,BB,"HTTP/1\.1\x20501\x20Not\x20Im
+SF:plemented\r\nDate:\x20Thu,\x2023\x20Aug\x202012\x2010:32:22\x20GMT\r\nC
+SF:onnection:\x20close\r\nContent-Type:\x20text/html\r\nContent-Length:\x2
+SF:054\r\n\r\n<HTML><BODY><H1>501\x20Not\x20Implemented</H1></BODY></HTML>
+SF:");
+Service Info: OS: Windows
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 100.31 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:32 CST
+Nmap scan report for 192.168.149.228
+Host is up (0.0060s latency).
+Not shown: 992 filtered ports
+PORT     STATE  SERVICE            VERSION
+21/tcp   open   ftp
+|_ftp-anon: Anonymous FTP login allowed
+22/tcp   open   ssh                OpenSSH 5.8p1-hpn13v11 (protocol 2.0)
+| ssh-hostkey: 1024 e6:f1:c2:be:e1:10:f1:09:0b:2b:a0:fc:30:a4:fe:d3 (DSA)
+|_2048 d5:a7:6a:42:39:6e:f7:57:26:ab:2d:27:f7:72:a1:be (RSA)
+23/tcp   open   telnet?
+80/tcp   open   http               Apache httpd 2.2.22 ((Unix) PHP/5.3.10)
+|_html-title: Did not follow redirect to http://192.168.149.228:5000/ and no page was returned.
+443/tcp  closed https
+5000/tcp open   http               Apache httpd 2.2.22 ((Unix) mod_ssl/2.2.22 OpenSSL/1.0.0h)
+| robots.txt: has 1 disallowed entry 
+|_/
+| html-title: Synology DiskStation - Fox-in-Cloud
+|_Requested resource was http://192.168.149.228:5000/webman/index.cgi
+5001/tcp open   http               Apache SSL-only mode httpd
+6881/tcp closed bittorrent-tracker
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port21-TCP:V=5.21%I=7%D=8/23%Time=503606C5%P=x86_64-unknown-linux-gnu%r
+SF:(NULL,24,"220\x20Fox-in-Cloud\x20FTP\x20server\x20ready\.\r\n")%r(Gener
+SF:icLines,62,"220\x20Fox-in-Cloud\x20FTP\x20server\x20ready\.\r\n500\x20:
+SF:\x20command\x20not\x20understood\.\r\n500\x20:\x20command\x20not\x20und
+SF:erstood\.\r\n")%r(Help,26D,"220\x20Fox-in-Cloud\x20FTP\x20server\x20rea
+SF:dy\.\r\n214-\x20The\x20following\x20commands\x20are\x20recognized\x20\(
+SF:\*\x20=>'s\x20unimplemented\)\.\r\n\x20\x20\x20USER\x20\x20\x20\x20LPRT
+SF:\x20\x20\x20\x20MODE\x20\x20\x20\x20MSOM\*\x20\x20\x20RNTO\x20\x20\x20\
+SF:x20SITE\x20\x20\x20\x20RMD\x20\x20\x20\x20\x20SIZE\x20\x20\x20\x20PROT\
+SF:x20\r\n\x20\x20\x20PASS\x20\x20\x20\x20EPRT\x20\x20\x20\x20RETR\x20\x20
+SF:\x20\x20MSAM\*\x20\x20\x20ABOR\x20\x20\x20\x20SYST\x20\x20\x20\x20XRMD\
+SF:x20\x20\x20\x20MDTM\x20\r\n\x20\x20\x20ACCT\*\x20\x20\x20PASV\x20\x20\x
+SF:20\x20STOR\x20\x20\x20\x20MRSQ\*\x20\x20\x20DELE\x20\x20\x20\x20STAT\x2
+SF:0\x20\x20\x20PWD\x20\x20\x20\x20\x20MFMT\x20\r\n\x20\x20\x20SMNT\*\x20\
+SF:x20\x20LPSV\x20\x20\x20\x20APPE\x20\x20\x20\x20MRCP\*\x20\x20\x20CWD\x2
+SF:0\x20\x20\x20\x20HELP\x20\x20\x20\x20XPWD\x20\x20\x20\x20FEAT\x20\r\n\x
+SF:20\x20\x20REIN\*\x20\x20\x20EPSV\x20\x20\x20\x20MLFL\*\x20\x20\x20ALLO\
+SF:x20\x20\x20\x20XCWD\x20\x20\x20\x20NOOP\x20\x20\x20\x20CDUP\x20\x20\x20
+SF:\x20OPTS\x20\r\n\x20\x20\x20QUIT\x20\x20\x20\x20TYPE\x20\x20\x20\x20MAI
+SF:L\*\x20\x20\x20REST\x20\x20\x20\x20LIST\x20\x20\x20\x20MKD\x20\x20\x20\
+SF:x20\x20XCUP\x20\x20\x20\x20AUTH\x20\r\n\x20\x20\x20PORT\x20\x20\x20\x20
+SF:STRU\x20\x20\x20\x20MSND\*\x20\x20\x20RNFR\x20\x20\x20\x20NLST\x20\x20\
+SF:x20\x20XMKD\x20\x20\x20\x20STOU\x20\x20\x20\x20PBSZ\x20\r\n214\x20Direc
+SF:t\x20comments\x20to\x20ftp-bugs@Fox-in-Cloud\.\r\n")%r(SMBProgNeg,24,"2
+SF:20\x20Fox-in-Cloud\x20FTP\x20server\x20ready\.\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port23-TCP:V=5.21%I=7%D=8/23%Time=503606C5%P=x86_64-unknown-linux-gnu%r
+SF:(NULL,23,"\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\r\r\nFox-in-
+SF:Cloud\x20login:\x20")%r(GenericLines,4F,"\xff\xfd\x01\xff\xfd\x1f\xff\x
+SF:fb\x01\xff\xfb\x03\r\r\nFox-in-Cloud\x20login:\x20\r\n\r\nFox-in-Cloud\
+SF:x20login:\x20Fox-in-Cloud\x20login:\x20")%r(GetRequest,35,"\xff\xfd\x01
+SF:\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\r\r\nGET\x20/\x20HTTP/1\.0\r\n\r\n
+SF:Fox-in-Cloud\x20login:\x20")%r(HTTPOptions,23,"\xff\xfd\x01\xff\xfd\x1f
+SF:\xff\xfb\x01\xff\xfb\x03\r\r\nFox-in-Cloud\x20login:\x20")%r(RTSPReques
+SF:t,23,"\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\r\r\nFox-in-Clou
+SF:d\x20login:\x20")%r(RPCCheck,23,"\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\x
+SF:ff\xfb\x03\r\r\nFox-in-Cloud\x20login:\x20")%r(DNSVersionBindReq,42,"\x
+SF:ff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\r\r\n\^@\^\^\^@\^F\^A\^@
+SF:\^@\^A\^@\^@\^@\^@\^@\^@\^Gversionbind\^@\^@\^P\^@\^C")%r(DNSStatusRequ
+SF:est,23,"\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\r\r\nFox-in-Cl
+SF:oud\x20login:\x20")%r(Help,23,"\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff
+SF:\xfb\x03\r\r\nFox-in-Cloud\x20login:\x20")%r(SSLSessionReq,23,"\xff\xfd
+SF:\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\r\r\nFox-in-Cloud\x20login:\x2
+SF:0")%r(SMBProgNeg,F4,"\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\r
+SF:\r\n\^@\^@\^@\xa4Br\^@\^@\^@\^@\^H\^A@\^@\^@\^@\^@\^@\^@\^@\^@\^@\^@\^@
+SF:\^@\^@\^@@\^F\^@\^@\^A\^@\^@\x81\^@\^BPC\x20NETWORK\x20PROGRAM\x201\.0\
+SF:^@\^BMICROSOFT\x20NETWORKS\x201\.03\^@\^BMICROSOFT\x20NETWORKS\x203\.0\
+SF:^@\^BLANMAN1\.0\^@\^BLM1\.2X002\^@\^BSamba\^@\^BNT\x20LANMAN\x201\.0\^@
+SF:\^BNT\x20LM\x200\.12Fox-in-Cloud\x20login:\x20")%r(X11Probe,23,"\xff\xf
+SF:d\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\r\r\nFox-in-Cloud\x20login:\x
+SF:20")%r(FourOhFourRequest,23,"\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\x
+SF:fb\x03\r\r\nFox-in-Cloud\x20login:\x20")%r(LPDString,23,"\xff\xfd\x01\x
+SF:ff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\r\r\nFox-in-Cloud\x20login:\x20")%r(
+SF:LDAPBindReq,38,"\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\r\r\n0
+SF:\^L\^B\^A\^A`\^G\^B\^A\^B\^@\x80Fox-in-Cloud\x20login:\x20")%r(SIPOptio
+SF:ns,23,"\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x01\xff\xfb\x03\r\r\nFox-in-Clo
+SF:ud\x20login:\x20");
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 111.17 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:34 CST
+Nmap scan report for 192.168.149.230
+Host is up (0.35s latency).
+All 1000 scanned ports on 192.168.149.230 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 33.07 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:34 CST
+Nmap scan report for 192.168.149.238
+Host is up (0.0013s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE      VERSION
+135/tcp  open  msrpc        Microsoft Windows RPC
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds Microsoft Windows XP microsoft-ds
+1935/tcp open  tcpwrapped
+8031/tcp open  unknown
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: HDU-7B4E8AF24F6, NetBIOS user: <unknown>, NetBIOS MAC: 00:21:97:04:ab:e4
+|_smbv2-enabled: Server doesn't support SMBv2 protocol
+| smb-os-discovery:  
+|   OS: Windows XP (Windows 2000 LAN Manager)
+|   Name: WORKGROUP\HDU-7B4E8AF24F6
+|_  System time: 2012-08-23 18:34:52 UTC+8
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 7.32 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:34 CST
+Nmap scan report for 192.168.149.250
+Host is up (0.0014s latency).
+Not shown: 988 closed ports
+PORT      STATE SERVICE         VERSION
+135/tcp   open  msrpc           Microsoft Windows RPC
+139/tcp   open  netbios-ssn
+443/tcp   open  ssl/https?
+445/tcp   open  netbios-ssn
+902/tcp   open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp   open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+49152/tcp open  msrpc           Microsoft Windows RPC
+49153/tcp open  msrpc           Microsoft Windows RPC
+49154/tcp open  msrpc           Microsoft Windows RPC
+49156/tcp open  msrpc           Microsoft Windows RPC
+49157/tcp open  msrpc           Microsoft Windows RPC
+49158/tcp open  msrpc           Microsoft Windows RPC
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port443-TCP:V=5.21%T=SSL%I=7%D=8/23%Time=5036075F%P=x86_64-unknown-linux-gnu%r(GetRequest,88,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Thu,\x2023
+SF:\x20Aug\x202012\x2010:35:05\x20GMT\r\nConnection:\x20close\r\nContent-T
+SF:ype:\x20text;\x20charset=plain\r\nContent-Length:\x200\r\n\r\n")%r(HTTP
+SF:Options,BB,"HTTP/1\.1\x20501\x20Not\x20Implemented\r\nDate:\x20Thu,\x20
+SF:23\x20Aug\x202012\x2010:35:10\x20GMT\r\nConnection:\x20close\r\nContent
+SF:-Type:\x20text/html\r\nContent-Length:\x2054\r\n\r\n<HTML><BODY><H1>501
+SF:\x20Not\x20Implemented</H1></BODY></HTML>")%r(RTSPRequest,BB,"HTTP/1\.1
+SF:\x20501\x20Not\x20Implemented\r\nDate:\x20Thu,\x2023\x20Aug\x202012\x20
+SF:10:35:10\x20GMT\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r
+SF:\nContent-Length:\x2054\r\n\r\n<HTML><BODY><H1>501\x20Not\x20Implemente
+SF:d</H1></BODY></HTML>")%r(FourOhFourRequest,88,"HTTP/1\.1\x20404\x20Not\
+SF:x20Found\r\nDate:\x20Thu,\x2023\x20Aug\x202012\x2010:35:48\x20GMT\r\nCo
+SF:nnection:\x20close\r\nContent-Type:\x20text;\x20charset=plain\r\nConten
+SF:t-Length:\x200\r\n\r\n")%r(SIPOptions,BB,"HTTP/1\.1\x20501\x20Not\x20Im
+SF:plemented\r\nDate:\x20Thu,\x2023\x20Aug\x202012\x2010:35:58\x20GMT\r\nC
+SF:onnection:\x20close\r\nContent-Type:\x20text/html\r\nContent-Length:\x2
+SF:054\r\n\r\n<HTML><BODY><H1>501\x20Not\x20Implemented</H1></BODY></HTML>
+SF:");
+Service Info: OS: Windows
+
+Host script results:
+|_nbstat: NetBIOS name: MYCOMPUTER, NetBIOS user: <unknown>, NetBIOS MAC: 8c:89:a5:3b:5a:08
+|_smbv2-enabled: Server supports SMBv2 protocol
+| smb-os-discovery:  
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   Name: WORKGROUP\MYCOMPUTER
+|_  System time: 2012-08-23 18:36:28 UTC+8
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 101.43 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:36 CST
+Nmap scan report for 192.168.149.253
+Host is up (0.0031s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE    VERSION
+80/tcp   open  http       TP-LINK WR641G/642G WAP http config
+|_html-title: Site doesn't have a title (text/html).
+| http-auth: HTTP Service requires authentication
+|_  Auth type: Basic, realm = TP-LINK Wireless Router WR641G/642G
+6000/tcp open  tcpwrapped
+Service Info: Device: WAP
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 11.80 seconds
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-08-23 18:36 CST
+Nmap scan report for gateway-for-departments.net.hziee.edu.cn (192.168.149.254)
+Host is up (0.0042s latency).
+Not shown: 996 closed ports
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     WU-FTPD or MIT Kerberos ftpd 6.00LS
+22/tcp open  ssh     OpenSSH 4.4 (protocol 1.99)
+|_sshv1: Server supports SSHv1
+| ssh-hostkey: 1024 31:5e:ed:93:dd:0e:be:82:f3:d8:3b:fb:07:1f:78:fa (RSA1)
+| 1024 54:07:c2:c9:ae:38:17:58:d6:15:2d:b9:6b:4a:02:83 (DSA)
+|_2048 90:8f:5e:64:73:22:6f:ec:e6:20:ad:ce:ff:40:f6:9d (RSA)
+23/tcp open  telnet  Openwall GNU/*/Linux telnetd
+80/tcp open  sip     Mbedthis-Appweb/2.4.0 (Status: 400 Bad Request)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port80-TCP:V=5.21%I=7%D=8/23%Time=503607CA%P=x86_64-unknown-linux-gnu%r
+SF:(GetRequest,1517,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Mon,\x2002\x20Aug\
+SF:x202010\x2013:56:40\x20GMT\r\nServer:\x20Mbedthis-Appweb/2\.4\.0\r\nCac
+SF:he-Control:\x20no-cache,\x20must-revalidate\r\nContent-type:\x20text/ht
+SF:ml\r\nETag:\x20\"ff66-3a2f-4\"\r\nContent-length:\x205118\r\nConnection
+SF::\x20close\r\nX-Powered-By:\x20PHP/5\.2\.3\r\nExpires:\x20Mon,\x2026\x2
+SF:0Jul\x201997\x2005:00:00\x20GMT\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\
+SF:"-//W3C//DTD\x20HTML\x204\.01\x20Transitional//EN\">\n<html>\n\x20\x20<
+SF:head>\n\x20\x20\x20\x20<meta\x20http-equiv=\"Content-Type\"\x20content=
+SF:\"text/html\"/>\n\x20\x20\x20\x20<link\x20rel=\"stylesheet\"\x20href=\"
+SF:/stylesheet/juniper\.css\"\x20type=\"text/css\"/>\n\x20\x20\x20\x20<tit
+SF:le>Log\x20In\x20-\x20Juniper\x20Web\x20Device\x20Manager</title>\n\x20\
+SF:x20\x20\x20<link\x20rel=\"shortcut\x20icon\"\x20href='images/favicon\.i
+SF:co'\x20type=\"image/x-icon\"/>\n\x20\x20</head>\n\x20\x20<script\x20lan
+SF:guage=\"javascript\"\x20type=\"text/javascript\">\n\x20\x20\x20\x20<!--
+SF:\n\x20\x20\x20\x20\x20\x20if\x20\(top\.location\.href\x20!=\x20location
+SF:\.href\)\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20top\.location\.href\x20=
+SF:\x20location\.href;\n\x20\x20\x20\x20\x20\x20}\n\x20\x20\x20\x20-->\n\x
+SF:20\x20</script>\n\x20\x20<body\x20onLoad=\"document\.login\.username\.f
+SF:ocus\(\);\">\n<!--\x20\x20\x20\x20<a\x20name=\"top\"></a>\n")%r(HTTPOpt
+SF:ions,126,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Mon,\x2002\x20Aug\x202010\
+SF:x2013:56:40\x20GMT\r\nServer:\x20Mbedthis-Appweb/2\.4\.0\r\nCache-Contr
+SF:ol:\x20max-age=5184000\r\nExpires:\x20Fri,\x2001\x20Oct\x202010\x2013:5
+SF:6:40\x20GMT\r\nContent-type:\x20application/x-appweb-php\r\nETag:\x20\"
+SF:ff66-3a2f-4\"\r\nContent-length:\x200\r\nConnection:\x20close\r\nAllow:
+SF:\x20OPTIONS,TRACE,GET,HEAD,POST\r\n\r\n")%r(RTSPRequest,149,"RTSP/1\.0\
+SF:x20400\x20Bad\x20Request\r\nServer:\x20Mbedthis-Appweb/2\.4\.0\r\nDate:
+SF:\x20Mon,\x2002\x20Aug\x202010\x2013:56:40\x20GMT\r\nConnection:\x20keep
+SF:-alive\r\nKeep-Alive:\x20timeout=60,\x20max=100\r\nContent-Type:\x20tex
+SF:t/html\r\nContent-length:\x20130\r\n\r\n<HTML><HEAD><TITLE>Document\x20
+SF:Error:\x20Bad\x20Request</TITLE></HEAD>\r\n<BODY><H2>Access\x20Error:\x
+SF:20400\x20--\x20Bad\x20Request</H2>\r\n</BODY></HTML>\r\n\r\n");
+Service Info: Host: KJ1N-HuiJu; OSs: Unix, Linux
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 76.94 seconds
