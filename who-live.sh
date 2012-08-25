@@ -1,6 +1,8 @@
 #!/bin/bash
 
-for ip in {1..254}; do arping -c 1 192.168.149.$ip >> /tmp/arp.$$; done
+NETWORK=$(ifconfig | grep Bcast | awk '{print $3}'| sed -e "s/^.*://g" -e "s/.255//g")
+
+for ip in {1..254}; do arping -c 1 $NETWORK.$ip >> /tmp/arp.$$; done
 cat /tmp/arp.$$ | grep "\[" | awk '{print $4, $5}' | sed -e 's/\[//g' -e 's/\]//g' > /tmp/mac-ip.$$
 cat /tmp/arp.$$ | grep "\[" | awk '{print $5}' | sed -e 's/\[//g' -e 's/\]//g' > /tmp/mac.$$
 #sleep 10
