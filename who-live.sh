@@ -4,9 +4,16 @@
 # 主要用来监视老方，运行起来因为要扫描整个局域网，比较慢
 # 大概要耗时250s
 
+echo
+echo "Now time is `date`."
+# 由于有多个网卡存在的情况，必须要查看当前使用的网卡，arping 默认的是 eth0
 NETWORK=$(ifconfig | grep Bcast | awk '{print $3}'| sed -e "s/^.*://g" -e "s/.255//g")
+INTERFACE=$(ifconfig | grep -B 1 Bcast | grep Link | awk '{print $1}')
 
-for ip in {1..254}; do arping -c 1 $NETWORK.$ip >> /tmp/arp.$$; done
+echo "NETWORK = $NETWORK.0"
+echo "INTERFACE = $INTERFACE"
+# apring 参数 -I 指定所使用的网卡
+for ip in {1..254}; do arping -c 1 -I $INTERFACE $NETWORK.$ip >> /tmp/arp.$$; done
 
 cat /tmp/arp.$$ | grep "\[" | awk '{print $4, $5}' | sed -e 's/\[//g' -e 's/\]//g' > /tmp/mac-ip.$$
 cat /tmp/arp.$$ | grep "\[" | awk '{print $5}' | sed -e 's/\[//g' -e 's/\]//g' > /tmp/mac.$$
