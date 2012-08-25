@@ -1,23 +1,20 @@
 #!/bin/bash
+# who-live.sh
+# 扫描整个局域网，通过arp查询mac地址，比对查找谁在线上
+# 主要用来监视老方，运行起来因为要扫描整个局域网，比较慢
+# 大概要耗时250s
 
 NETWORK=$(ifconfig | grep Bcast | awk '{print $3}'| sed -e "s/^.*://g" -e "s/.255//g")
 
 for ip in {1..254}; do arping -c 1 $NETWORK.$ip >> /tmp/arp.$$; done
+
 cat /tmp/arp.$$ | grep "\[" | awk '{print $4, $5}' | sed -e 's/\[//g' -e 's/\]//g' > /tmp/mac-ip.$$
 cat /tmp/arp.$$ | grep "\[" | awk '{print $5}' | sed -e 's/\[//g' -e 's/\]//g' > /tmp/mac.$$
-#sleep 10
-#cat /tmp/mac-ip.$$ | awk '{print $2}' > mac.$$
-#echo $(cat /tmp/mac-ip.$$ | awk '{print $2}') > mac.txt
+
 MAC=$(cat /tmp/mac.$$)
-#echo $MAC
 for mac in $MAC;
 do
-#	MAC=$(echo $mac-ip | awk '{printf "%s", $5}' | sed -e 's/\[//g' -e 's/\]//g')
 	ip=$(cat /tmp/mac-ip.$$ | grep $mac | awk '{print $1}')
-#	mac=$(echo $mac_ip |awk 'print $2')
-#	ip=$(cat /tmp/mac-ip.$$ | grep $mac | awk '{print $1}')
-#	echo $mac $ip
-#	echo $mac $ip
 	case "$mac" in
 
 		8[Cc]:89:[Aa]5:3[Bb]:59:[Cc][Aa]) 
