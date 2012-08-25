@@ -38,3 +38,4 @@ do
 done	
 
 rm -rf /tmp/arp.$$ /tmp/mac-ip.$$ /tmp/mac.$$
+echo "This script has been running $SECONDS seconds."
