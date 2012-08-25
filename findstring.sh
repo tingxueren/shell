@@ -8,8 +8,17 @@
 directory=$1
 fstring=$2
 
+E_BADARGS=65
+
+if [ $# -ne 2 ]
+then
+  echo "Usage: `basename $0` search_directory search_string"
+  exit $E_BADARGS
+fi
+
 for file in $( find $directory -type f -name '*' | sort )
 do
+# strings, 对文件名中有空格的会造成误判,把空格当作的分割符
   strings -f $file | grep "$fstring" | sed -e "s%$directory%%"
   #  在"sed"表达式中,
   #+ 我们必须替换掉正常的替换分隔符"/",
