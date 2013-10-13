@@ -1,0 +1,201 @@
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-11-09 09:52 CST
+Nmap scan report for gateway-for-se.net.hziee.edu.cn (210.32.39.22)
+Host is up (0.0024s latency).
+Not shown: 996 closed ports
+PORT   STATE SERVICE
+21/tcp open  ftp
+22/tcp open  ssh
+23/tcp open  telnet
+80/tcp open  http
+
+Nmap scan report for lib-nic.net.hziee.edu.cn (210.32.39.189)
+Host is up (0.0034s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+23/tcp open  telnet
+
+Nmap scan report for nic-lib.net.hziee.edu.cn (210.32.39.190)
+Host is up (0.00063s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+23/tcp open  telnet
+
+Nmap scan report for 210.32.39.226
+Host is up (0.0014s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+23/tcp  open  telnet
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for nic-cernet.net.hziee.edu.cn (210.32.39.227)
+Host is up (0.019s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+23/tcp open  telnet
+
+Nmap scan report for nic-dmz-1.net.hziee.edu.cn (210.32.39.230)
+Host is up (0.00069s latency).
+Not shown: 997 closed ports
+PORT   STATE SERVICE
+21/tcp open  ftp
+22/tcp open  ssh
+23/tcp open  telnet
+
+Nmap scan report for lib-dmz-1.net.hziee.edu.cn (210.32.39.231)
+Host is up (0.0014s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+23/tcp open  telnet
+
+Nmap scan report for borderline.net.hdu.edu.cn (210.32.39.232)
+Host is up (0.0048s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+23/tcp open  telnet
+
+Nmap scan report for 210.32.39.233
+Host is up (0.0011s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+23/tcp open  telnet
+
+Nmap scan report for 210.32.39.234
+Host is up (0.017s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+23/tcp open  telnet
+
+Nmap scan report for 210.32.39.235
+Host is up (0.0025s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+23/tcp open  telnet
+
+Nmap scan report for 210.32.39.236
+Host is up (0.0088s latency).
+Not shown: 997 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+23/tcp open  telnet
+80/tcp open  http
+
+Nmap scan report for 210.32.39.237
+Host is up (0.031s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+23/tcp open  telnet
+
+Nmap scan report for 210.32.39.238
+Host is up (0.052s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+23/tcp  open  telnet
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 210.32.39.239
+Host is up (0.012s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+23/tcp  open  telnet
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for xzl-nic.net.hziee.edu.cn (210.32.39.241)
+Host is up (0.0020s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+23/tcp open  telnet
+
+Nmap scan report for sy2n-nic.net.hziee.edu.cn (210.32.39.242)
+Host is up (0.0016s latency).
+Not shown: 997 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+23/tcp open  telnet
+80/tcp open  http
+
+Nmap scan report for sy2z-nic.net.hziee.edu.cn (210.32.39.243)
+Host is up (0.0060s latency).
+Not shown: 997 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+23/tcp open  telnet
+80/tcp open  http
+
+Nmap scan report for sy2b-nic.net.hziee.edu.cn (210.32.39.244)
+Host is up (0.0023s latency).
+Not shown: 997 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+23/tcp open  telnet
+80/tcp open  http
+
+Nmap scan report for sy3n-nic.net.hziee.edu.cn (210.32.39.245)
+Host is up (0.0019s latency).
+Not shown: 996 closed ports
+PORT   STATE SERVICE
+21/tcp open  ftp
+22/tcp open  ssh
+23/tcp open  telnet
+80/tcp open  http
+
+Nmap scan report for sy3b-nic.net.hziee.edu.cn (210.32.39.246)
+Host is up (0.0012s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+23/tcp open  telnet
+
+Nmap scan report for sy4-nic.net.hziee.edu.cn (210.32.39.247)
+Host is up (0.0020s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+23/tcp open  telnet
+
+Nmap scan report for sy5-nic.net.hziee.edu.cn (210.32.39.248)
+Host is up (0.0017s latency).
+Not shown: 997 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+23/tcp open  telnet
+80/tcp open  http
+
+Nmap scan report for jx5n-nic.net.hziee.edu.cn (210.32.39.249)
+Host is up (0.019s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+23/tcp open  telnet
+
+Nmap scan report for wenyi.net.hziee.edu.cn (210.32.39.250)
+Host is up (0.0033s latency).
+Not shown: 996 closed ports
+PORT   STATE SERVICE
+21/tcp open  ftp
+22/tcp open  ssh
+23/tcp open  telnet
+80/tcp open  http
+
+Nmap scan report for fw-xiasha.net.hziee.edu.cn (210.32.39.251)
+Host is up (0.0015s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+23/tcp open  telnet
+
+Nmap scan report for fw-xiasha-cnc.net.hziee.edu.cn (210.32.39.254)
+Host is up (0.00081s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+23/tcp open  telnet
+
+Nmap done: 29 IP addresses (27 hosts up) scanned in 9.15 seconds

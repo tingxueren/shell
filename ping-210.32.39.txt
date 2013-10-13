@@ -1,0 +1,1302 @@
+PING 210.32.39.1 (210.32.39.1) 56(84) bytes of data.
+
+--- 210.32.39.1 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.2 (210.32.39.2) 56(84) bytes of data.
+
+--- 210.32.39.2 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.3 (210.32.39.3) 56(84) bytes of data.
+
+--- 210.32.39.3 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.4 (210.32.39.4) 56(84) bytes of data.
+
+--- 210.32.39.4 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.5 (210.32.39.5) 56(84) bytes of data.
+
+--- 210.32.39.5 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.6 (210.32.39.6) 56(84) bytes of data.
+
+--- 210.32.39.6 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.7 (210.32.39.7) 56(84) bytes of data.
+
+--- 210.32.39.7 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.8 (210.32.39.8) 56(84) bytes of data.
+
+--- 210.32.39.8 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.9 (210.32.39.9) 56(84) bytes of data.
+
+--- 210.32.39.9 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.10 (210.32.39.10) 56(84) bytes of data.
+
+--- 210.32.39.10 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.11 (210.32.39.11) 56(84) bytes of data.
+
+--- 210.32.39.11 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.12 (210.32.39.12) 56(84) bytes of data.
+
+--- 210.32.39.12 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.13 (210.32.39.13) 56(84) bytes of data.
+
+--- 210.32.39.13 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.14 (210.32.39.14) 56(84) bytes of data.
+
+--- 210.32.39.14 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.15 (210.32.39.15) 56(84) bytes of data.
+
+--- 210.32.39.15 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.16 (210.32.39.16) 56(84) bytes of data.
+
+--- 210.32.39.16 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.17 (210.32.39.17) 56(84) bytes of data.
+
+--- 210.32.39.17 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.18 (210.32.39.18) 56(84) bytes of data.
+
+--- 210.32.39.18 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.19 (210.32.39.19) 56(84) bytes of data.
+
+--- 210.32.39.19 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.20 (210.32.39.20) 56(84) bytes of data.
+
+--- 210.32.39.20 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.21 (210.32.39.21) 56(84) bytes of data.
+
+--- 210.32.39.21 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.22 (210.32.39.22) 56(84) bytes of data.
+64 bytes from 210.32.39.22: icmp_req=1 ttl=63 time=0.879 ms
+
+--- 210.32.39.22 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.879/0.879/0.879/0.000 ms
+PING 210.32.39.23 (210.32.39.23) 56(84) bytes of data.
+
+--- 210.32.39.23 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.24 (210.32.39.24) 56(84) bytes of data.
+
+--- 210.32.39.24 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.25 (210.32.39.25) 56(84) bytes of data.
+
+--- 210.32.39.25 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.26 (210.32.39.26) 56(84) bytes of data.
+
+--- 210.32.39.26 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.27 (210.32.39.27) 56(84) bytes of data.
+
+--- 210.32.39.27 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.28 (210.32.39.28) 56(84) bytes of data.
+
+--- 210.32.39.28 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.29 (210.32.39.29) 56(84) bytes of data.
+
+--- 210.32.39.29 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.30 (210.32.39.30) 56(84) bytes of data.
+
+--- 210.32.39.30 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.31 (210.32.39.31) 56(84) bytes of data.
+
+--- 210.32.39.31 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.32 (210.32.39.32) 56(84) bytes of data.
+
+--- 210.32.39.32 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.33 (210.32.39.33) 56(84) bytes of data.
+
+--- 210.32.39.33 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.34 (210.32.39.34) 56(84) bytes of data.
+
+--- 210.32.39.34 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.35 (210.32.39.35) 56(84) bytes of data.
+
+--- 210.32.39.35 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.36 (210.32.39.36) 56(84) bytes of data.
+
+--- 210.32.39.36 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.37 (210.32.39.37) 56(84) bytes of data.
+
+--- 210.32.39.37 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.38 (210.32.39.38) 56(84) bytes of data.
+
+--- 210.32.39.38 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.39 (210.32.39.39) 56(84) bytes of data.
+
+--- 210.32.39.39 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.40 (210.32.39.40) 56(84) bytes of data.
+
+--- 210.32.39.40 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.41 (210.32.39.41) 56(84) bytes of data.
+
+--- 210.32.39.41 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.42 (210.32.39.42) 56(84) bytes of data.
+
+--- 210.32.39.42 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.43 (210.32.39.43) 56(84) bytes of data.
+
+--- 210.32.39.43 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.44 (210.32.39.44) 56(84) bytes of data.
+
+--- 210.32.39.44 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.45 (210.32.39.45) 56(84) bytes of data.
+
+--- 210.32.39.45 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.46 (210.32.39.46) 56(84) bytes of data.
+
+--- 210.32.39.46 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.47 (210.32.39.47) 56(84) bytes of data.
+
+--- 210.32.39.47 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.48 (210.32.39.48) 56(84) bytes of data.
+
+--- 210.32.39.48 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.49 (210.32.39.49) 56(84) bytes of data.
+
+--- 210.32.39.49 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.50 (210.32.39.50) 56(84) bytes of data.
+
+--- 210.32.39.50 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.51 (210.32.39.51) 56(84) bytes of data.
+
+--- 210.32.39.51 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.52 (210.32.39.52) 56(84) bytes of data.
+
+--- 210.32.39.52 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.53 (210.32.39.53) 56(84) bytes of data.
+
+--- 210.32.39.53 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.54 (210.32.39.54) 56(84) bytes of data.
+
+--- 210.32.39.54 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.55 (210.32.39.55) 56(84) bytes of data.
+
+--- 210.32.39.55 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.56 (210.32.39.56) 56(84) bytes of data.
+
+--- 210.32.39.56 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.57 (210.32.39.57) 56(84) bytes of data.
+
+--- 210.32.39.57 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.58 (210.32.39.58) 56(84) bytes of data.
+
+--- 210.32.39.58 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.59 (210.32.39.59) 56(84) bytes of data.
+
+--- 210.32.39.59 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.60 (210.32.39.60) 56(84) bytes of data.
+
+--- 210.32.39.60 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.61 (210.32.39.61) 56(84) bytes of data.
+
+--- 210.32.39.61 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.62 (210.32.39.62) 56(84) bytes of data.
+
+--- 210.32.39.62 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.63 (210.32.39.63) 56(84) bytes of data.
+
+--- 210.32.39.63 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.64 (210.32.39.64) 56(84) bytes of data.
+
+--- 210.32.39.64 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.65 (210.32.39.65) 56(84) bytes of data.
+
+--- 210.32.39.65 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.66 (210.32.39.66) 56(84) bytes of data.
+
+--- 210.32.39.66 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.67 (210.32.39.67) 56(84) bytes of data.
+
+--- 210.32.39.67 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.68 (210.32.39.68) 56(84) bytes of data.
+
+--- 210.32.39.68 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.69 (210.32.39.69) 56(84) bytes of data.
+
+--- 210.32.39.69 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.70 (210.32.39.70) 56(84) bytes of data.
+
+--- 210.32.39.70 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.71 (210.32.39.71) 56(84) bytes of data.
+
+--- 210.32.39.71 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.72 (210.32.39.72) 56(84) bytes of data.
+
+--- 210.32.39.72 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.73 (210.32.39.73) 56(84) bytes of data.
+
+--- 210.32.39.73 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.74 (210.32.39.74) 56(84) bytes of data.
+
+--- 210.32.39.74 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.75 (210.32.39.75) 56(84) bytes of data.
+
+--- 210.32.39.75 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.76 (210.32.39.76) 56(84) bytes of data.
+
+--- 210.32.39.76 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.77 (210.32.39.77) 56(84) bytes of data.
+
+--- 210.32.39.77 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.78 (210.32.39.78) 56(84) bytes of data.
+
+--- 210.32.39.78 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.79 (210.32.39.79) 56(84) bytes of data.
+From 210.32.39.254 icmp_seq=1 Packet filtered
+
+--- 210.32.39.79 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 210.32.39.80 (210.32.39.80) 56(84) bytes of data.
+
+--- 210.32.39.80 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.81 (210.32.39.81) 56(84) bytes of data.
+
+--- 210.32.39.81 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.82 (210.32.39.82) 56(84) bytes of data.
+
+--- 210.32.39.82 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.83 (210.32.39.83) 56(84) bytes of data.
+
+--- 210.32.39.83 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.84 (210.32.39.84) 56(84) bytes of data.
+
+--- 210.32.39.84 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.85 (210.32.39.85) 56(84) bytes of data.
+
+--- 210.32.39.85 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.86 (210.32.39.86) 56(84) bytes of data.
+
+--- 210.32.39.86 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.87 (210.32.39.87) 56(84) bytes of data.
+
+--- 210.32.39.87 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.88 (210.32.39.88) 56(84) bytes of data.
+
+--- 210.32.39.88 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.89 (210.32.39.89) 56(84) bytes of data.
+
+--- 210.32.39.89 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.90 (210.32.39.90) 56(84) bytes of data.
+
+--- 210.32.39.90 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.91 (210.32.39.91) 56(84) bytes of data.
+
+--- 210.32.39.91 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.92 (210.32.39.92) 56(84) bytes of data.
+
+--- 210.32.39.92 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.93 (210.32.39.93) 56(84) bytes of data.
+
+--- 210.32.39.93 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.94 (210.32.39.94) 56(84) bytes of data.
+
+--- 210.32.39.94 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.95 (210.32.39.95) 56(84) bytes of data.
+
+--- 210.32.39.95 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.96 (210.32.39.96) 56(84) bytes of data.
+
+--- 210.32.39.96 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.97 (210.32.39.97) 56(84) bytes of data.
+
+--- 210.32.39.97 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.98 (210.32.39.98) 56(84) bytes of data.
+
+--- 210.32.39.98 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.99 (210.32.39.99) 56(84) bytes of data.
+
+--- 210.32.39.99 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.100 (210.32.39.100) 56(84) bytes of data.
+
+--- 210.32.39.100 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.101 (210.32.39.101) 56(84) bytes of data.
+
+--- 210.32.39.101 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.102 (210.32.39.102) 56(84) bytes of data.
+
+--- 210.32.39.102 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.103 (210.32.39.103) 56(84) bytes of data.
+
+--- 210.32.39.103 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.104 (210.32.39.104) 56(84) bytes of data.
+
+--- 210.32.39.104 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.105 (210.32.39.105) 56(84) bytes of data.
+
+--- 210.32.39.105 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.106 (210.32.39.106) 56(84) bytes of data.
+
+--- 210.32.39.106 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.107 (210.32.39.107) 56(84) bytes of data.
+
+--- 210.32.39.107 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.108 (210.32.39.108) 56(84) bytes of data.
+
+--- 210.32.39.108 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.109 (210.32.39.109) 56(84) bytes of data.
+
+--- 210.32.39.109 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.110 (210.32.39.110) 56(84) bytes of data.
+
+--- 210.32.39.110 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.111 (210.32.39.111) 56(84) bytes of data.
+
+--- 210.32.39.111 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.112 (210.32.39.112) 56(84) bytes of data.
+
+--- 210.32.39.112 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.113 (210.32.39.113) 56(84) bytes of data.
+
+--- 210.32.39.113 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.114 (210.32.39.114) 56(84) bytes of data.
+
+--- 210.32.39.114 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.115 (210.32.39.115) 56(84) bytes of data.
+
+--- 210.32.39.115 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.116 (210.32.39.116) 56(84) bytes of data.
+
+--- 210.32.39.116 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.117 (210.32.39.117) 56(84) bytes of data.
+
+--- 210.32.39.117 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.118 (210.32.39.118) 56(84) bytes of data.
+
+--- 210.32.39.118 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.119 (210.32.39.119) 56(84) bytes of data.
+
+--- 210.32.39.119 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.120 (210.32.39.120) 56(84) bytes of data.
+
+--- 210.32.39.120 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.121 (210.32.39.121) 56(84) bytes of data.
+
+--- 210.32.39.121 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.122 (210.32.39.122) 56(84) bytes of data.
+
+--- 210.32.39.122 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.123 (210.32.39.123) 56(84) bytes of data.
+
+--- 210.32.39.123 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.124 (210.32.39.124) 56(84) bytes of data.
+
+--- 210.32.39.124 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.125 (210.32.39.125) 56(84) bytes of data.
+
+--- 210.32.39.125 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.126 (210.32.39.126) 56(84) bytes of data.
+
+--- 210.32.39.126 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.127 (210.32.39.127) 56(84) bytes of data.
+
+--- 210.32.39.127 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.128 (210.32.39.128) 56(84) bytes of data.
+
+--- 210.32.39.128 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.129 (210.32.39.129) 56(84) bytes of data.
+
+--- 210.32.39.129 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.130 (210.32.39.130) 56(84) bytes of data.
+
+--- 210.32.39.130 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.131 (210.32.39.131) 56(84) bytes of data.
+
+--- 210.32.39.131 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.132 (210.32.39.132) 56(84) bytes of data.
+
+--- 210.32.39.132 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.133 (210.32.39.133) 56(84) bytes of data.
+
+--- 210.32.39.133 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.134 (210.32.39.134) 56(84) bytes of data.
+
+--- 210.32.39.134 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.135 (210.32.39.135) 56(84) bytes of data.
+
+--- 210.32.39.135 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.136 (210.32.39.136) 56(84) bytes of data.
+
+--- 210.32.39.136 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.137 (210.32.39.137) 56(84) bytes of data.
+
+--- 210.32.39.137 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.138 (210.32.39.138) 56(84) bytes of data.
+
+--- 210.32.39.138 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.139 (210.32.39.139) 56(84) bytes of data.
+From 210.32.39.254 icmp_seq=1 Packet filtered
+
+--- 210.32.39.139 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 210.32.39.140 (210.32.39.140) 56(84) bytes of data.
+
+--- 210.32.39.140 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.141 (210.32.39.141) 56(84) bytes of data.
+
+--- 210.32.39.141 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.142 (210.32.39.142) 56(84) bytes of data.
+
+--- 210.32.39.142 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.143 (210.32.39.143) 56(84) bytes of data.
+
+--- 210.32.39.143 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.144 (210.32.39.144) 56(84) bytes of data.
+
+--- 210.32.39.144 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.145 (210.32.39.145) 56(84) bytes of data.
+
+--- 210.32.39.145 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.146 (210.32.39.146) 56(84) bytes of data.
+
+--- 210.32.39.146 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.147 (210.32.39.147) 56(84) bytes of data.
+
+--- 210.32.39.147 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.148 (210.32.39.148) 56(84) bytes of data.
+
+--- 210.32.39.148 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.149 (210.32.39.149) 56(84) bytes of data.
+
+--- 210.32.39.149 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.150 (210.32.39.150) 56(84) bytes of data.
+
+--- 210.32.39.150 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.151 (210.32.39.151) 56(84) bytes of data.
+
+--- 210.32.39.151 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.152 (210.32.39.152) 56(84) bytes of data.
+
+--- 210.32.39.152 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.153 (210.32.39.153) 56(84) bytes of data.
+
+--- 210.32.39.153 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.154 (210.32.39.154) 56(84) bytes of data.
+
+--- 210.32.39.154 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.155 (210.32.39.155) 56(84) bytes of data.
+
+--- 210.32.39.155 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.156 (210.32.39.156) 56(84) bytes of data.
+
+--- 210.32.39.156 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.157 (210.32.39.157) 56(84) bytes of data.
+
+--- 210.32.39.157 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.158 (210.32.39.158) 56(84) bytes of data.
+
+--- 210.32.39.158 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.159 (210.32.39.159) 56(84) bytes of data.
+From 210.32.39.254 icmp_seq=1 Packet filtered
+
+--- 210.32.39.159 ping statistics ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+PING 210.32.39.160 (210.32.39.160) 56(84) bytes of data.
+
+--- 210.32.39.160 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.161 (210.32.39.161) 56(84) bytes of data.
+
+--- 210.32.39.161 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.162 (210.32.39.162) 56(84) bytes of data.
+
+--- 210.32.39.162 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.163 (210.32.39.163) 56(84) bytes of data.
+
+--- 210.32.39.163 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.164 (210.32.39.164) 56(84) bytes of data.
+
+--- 210.32.39.164 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.165 (210.32.39.165) 56(84) bytes of data.
+
+--- 210.32.39.165 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.166 (210.32.39.166) 56(84) bytes of data.
+
+--- 210.32.39.166 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.167 (210.32.39.167) 56(84) bytes of data.
+
+--- 210.32.39.167 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.168 (210.32.39.168) 56(84) bytes of data.
+
+--- 210.32.39.168 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.169 (210.32.39.169) 56(84) bytes of data.
+
+--- 210.32.39.169 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.170 (210.32.39.170) 56(84) bytes of data.
+
+--- 210.32.39.170 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.171 (210.32.39.171) 56(84) bytes of data.
+
+--- 210.32.39.171 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.172 (210.32.39.172) 56(84) bytes of data.
+
+--- 210.32.39.172 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.173 (210.32.39.173) 56(84) bytes of data.
+
+--- 210.32.39.173 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.174 (210.32.39.174) 56(84) bytes of data.
+
+--- 210.32.39.174 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.175 (210.32.39.175) 56(84) bytes of data.
+
+--- 210.32.39.175 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.176 (210.32.39.176) 56(84) bytes of data.
+
+--- 210.32.39.176 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.177 (210.32.39.177) 56(84) bytes of data.
+
+--- 210.32.39.177 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.178 (210.32.39.178) 56(84) bytes of data.
+
+--- 210.32.39.178 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.179 (210.32.39.179) 56(84) bytes of data.
+
+--- 210.32.39.179 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.180 (210.32.39.180) 56(84) bytes of data.
+
+--- 210.32.39.180 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.181 (210.32.39.181) 56(84) bytes of data.
+
+--- 210.32.39.181 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.182 (210.32.39.182) 56(84) bytes of data.
+
+--- 210.32.39.182 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.183 (210.32.39.183) 56(84) bytes of data.
+
+--- 210.32.39.183 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.184 (210.32.39.184) 56(84) bytes of data.
+
+--- 210.32.39.184 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.185 (210.32.39.185) 56(84) bytes of data.
+
+--- 210.32.39.185 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.186 (210.32.39.186) 56(84) bytes of data.
+
+--- 210.32.39.186 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.187 (210.32.39.187) 56(84) bytes of data.
+
+--- 210.32.39.187 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.188 (210.32.39.188) 56(84) bytes of data.
+64 bytes from 210.32.39.254: icmp_req=1 ttl=254 time=0.550 ms
+
+--- 210.32.39.188 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.550/0.550/0.550/0.000 ms
+PING 210.32.39.189 (210.32.39.189) 56(84) bytes of data.
+64 bytes from 210.32.39.189: icmp_req=1 ttl=62 time=1.00 ms
+
+--- 210.32.39.189 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.002/1.002/1.002/0.000 ms
+PING 210.32.39.190 (210.32.39.190) 56(84) bytes of data.
+64 bytes from 210.32.39.190: icmp_req=1 ttl=254 time=0.501 ms
+
+--- 210.32.39.190 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.501/0.501/0.501/0.000 ms
+PING 210.32.39.191 (210.32.39.191) 56(84) bytes of data.
+64 bytes from 210.32.39.254: icmp_req=1 ttl=254 time=0.523 ms
+
+--- 210.32.39.191 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.523/0.523/0.523/0.000 ms
+PING 210.32.39.192 (210.32.39.192) 56(84) bytes of data.
+
+--- 210.32.39.192 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.193 (210.32.39.193) 56(84) bytes of data.
+
+--- 210.32.39.193 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.194 (210.32.39.194) 56(84) bytes of data.
+
+--- 210.32.39.194 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.195 (210.32.39.195) 56(84) bytes of data.
+
+--- 210.32.39.195 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.196 (210.32.39.196) 56(84) bytes of data.
+
+--- 210.32.39.196 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.197 (210.32.39.197) 56(84) bytes of data.
+
+--- 210.32.39.197 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.198 (210.32.39.198) 56(84) bytes of data.
+
+--- 210.32.39.198 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.199 (210.32.39.199) 56(84) bytes of data.
+
+--- 210.32.39.199 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.200 (210.32.39.200) 56(84) bytes of data.
+
+--- 210.32.39.200 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.201 (210.32.39.201) 56(84) bytes of data.
+
+--- 210.32.39.201 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.202 (210.32.39.202) 56(84) bytes of data.
+
+--- 210.32.39.202 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.203 (210.32.39.203) 56(84) bytes of data.
+
+--- 210.32.39.203 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.204 (210.32.39.204) 56(84) bytes of data.
+
+--- 210.32.39.204 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.205 (210.32.39.205) 56(84) bytes of data.
+
+--- 210.32.39.205 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.206 (210.32.39.206) 56(84) bytes of data.
+
+--- 210.32.39.206 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.207 (210.32.39.207) 56(84) bytes of data.
+
+--- 210.32.39.207 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.208 (210.32.39.208) 56(84) bytes of data.
+
+--- 210.32.39.208 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.209 (210.32.39.209) 56(84) bytes of data.
+
+--- 210.32.39.209 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.210 (210.32.39.210) 56(84) bytes of data.
+
+--- 210.32.39.210 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.211 (210.32.39.211) 56(84) bytes of data.
+
+--- 210.32.39.211 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.212 (210.32.39.212) 56(84) bytes of data.
+
+--- 210.32.39.212 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.213 (210.32.39.213) 56(84) bytes of data.
+
+--- 210.32.39.213 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.214 (210.32.39.214) 56(84) bytes of data.
+
+--- 210.32.39.214 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.215 (210.32.39.215) 56(84) bytes of data.
+
+--- 210.32.39.215 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.216 (210.32.39.216) 56(84) bytes of data.
+
+--- 210.32.39.216 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.217 (210.32.39.217) 56(84) bytes of data.
+
+--- 210.32.39.217 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.218 (210.32.39.218) 56(84) bytes of data.
+
+--- 210.32.39.218 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.219 (210.32.39.219) 56(84) bytes of data.
+
+--- 210.32.39.219 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.220 (210.32.39.220) 56(84) bytes of data.
+
+--- 210.32.39.220 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.221 (210.32.39.221) 56(84) bytes of data.
+
+--- 210.32.39.221 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.222 (210.32.39.222) 56(84) bytes of data.
+
+--- 210.32.39.222 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.223 (210.32.39.223) 56(84) bytes of data.
+
+--- 210.32.39.223 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.224 (210.32.39.224) 56(84) bytes of data.
+
+--- 210.32.39.224 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.225 (210.32.39.225) 56(84) bytes of data.
+
+--- 210.32.39.225 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.226 (210.32.39.226) 56(84) bytes of data.
+64 bytes from 210.32.39.226: icmp_req=1 ttl=254 time=0.791 ms
+
+--- 210.32.39.226 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.791/0.791/0.791/0.000 ms
+PING 210.32.39.227 (210.32.39.227) 56(84) bytes of data.
+64 bytes from 210.32.39.227: icmp_req=1 ttl=254 time=0.761 ms
+
+--- 210.32.39.227 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.761/0.761/0.761/0.000 ms
+PING 210.32.39.228 (210.32.39.228) 56(84) bytes of data.
+
+--- 210.32.39.228 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.229 (210.32.39.229) 56(84) bytes of data.
+
+--- 210.32.39.229 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.230 (210.32.39.230) 56(84) bytes of data.
+64 bytes from 210.32.39.230: icmp_req=1 ttl=63 time=0.668 ms
+
+--- 210.32.39.230 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.668/0.668/0.668/0.000 ms
+PING 210.32.39.231 (210.32.39.231) 56(84) bytes of data.
+64 bytes from 210.32.39.231: icmp_req=1 ttl=254 time=0.735 ms
+
+--- 210.32.39.231 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.735/0.735/0.735/0.000 ms
+PING 210.32.39.232 (210.32.39.232) 56(84) bytes of data.
+64 bytes from 210.32.39.232: icmp_req=1 ttl=64 time=1.99 ms
+
+--- 210.32.39.232 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.991/1.991/1.991/0.000 ms
+PING 210.32.39.233 (210.32.39.233) 56(84) bytes of data.
+64 bytes from 210.32.39.233: icmp_req=1 ttl=254 time=0.802 ms
+
+--- 210.32.39.233 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.802/0.802/0.802/0.000 ms
+PING 210.32.39.234 (210.32.39.234) 56(84) bytes of data.
+64 bytes from 210.32.39.234: icmp_req=1 ttl=254 time=1.39 ms
+
+--- 210.32.39.234 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.391/1.391/1.391/0.000 ms
+PING 210.32.39.235 (210.32.39.235) 56(84) bytes of data.
+64 bytes from 210.32.39.235: icmp_req=1 ttl=254 time=0.799 ms
+
+--- 210.32.39.235 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.799/0.799/0.799/0.000 ms
+PING 210.32.39.236 (210.32.39.236) 56(84) bytes of data.
+64 bytes from 210.32.39.236: icmp_req=1 ttl=253 time=23.7 ms
+
+--- 210.32.39.236 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 23.735/23.735/23.735/0.000 ms
+PING 210.32.39.237 (210.32.39.237) 56(84) bytes of data.
+64 bytes from 210.32.39.237: icmp_req=1 ttl=254 time=0.772 ms
+
+--- 210.32.39.237 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.772/0.772/0.772/0.000 ms
+PING 210.32.39.238 (210.32.39.238) 56(84) bytes of data.
+64 bytes from 210.32.39.238: icmp_req=1 ttl=254 time=0.896 ms
+
+--- 210.32.39.238 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.896/0.896/0.896/0.000 ms
+PING 210.32.39.239 (210.32.39.239) 56(84) bytes of data.
+64 bytes from 210.32.39.239: icmp_req=1 ttl=254 time=0.830 ms
+
+--- 210.32.39.239 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.830/0.830/0.830/0.000 ms
+PING 210.32.39.240 (210.32.39.240) 56(84) bytes of data.
+
+--- 210.32.39.240 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.241 (210.32.39.241) 56(84) bytes of data.
+64 bytes from 210.32.39.241: icmp_req=1 ttl=63 time=1.01 ms
+
+--- 210.32.39.241 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.011/1.011/1.011/0.000 ms
+PING 210.32.39.242 (210.32.39.242) 56(84) bytes of data.
+64 bytes from 210.32.39.242: icmp_req=1 ttl=63 time=1.16 ms
+
+--- 210.32.39.242 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.168/1.168/1.168/0.000 ms
+PING 210.32.39.243 (210.32.39.243) 56(84) bytes of data.
+64 bytes from 210.32.39.243: icmp_req=1 ttl=63 time=3.30 ms
+
+--- 210.32.39.243 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.308/3.308/3.308/0.000 ms
+PING 210.32.39.244 (210.32.39.244) 56(84) bytes of data.
+64 bytes from 210.32.39.244: icmp_req=1 ttl=63 time=1.04 ms
+
+--- 210.32.39.244 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.041/1.041/1.041/0.000 ms
+PING 210.32.39.245 (210.32.39.245) 56(84) bytes of data.
+64 bytes from 210.32.39.245: icmp_req=1 ttl=63 time=0.887 ms
+
+--- 210.32.39.245 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.887/0.887/0.887/0.000 ms
+PING 210.32.39.246 (210.32.39.246) 56(84) bytes of data.
+64 bytes from 210.32.39.246: icmp_req=1 ttl=63 time=0.795 ms
+
+--- 210.32.39.246 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.795/0.795/0.795/0.000 ms
+PING 210.32.39.247 (210.32.39.247) 56(84) bytes of data.
+64 bytes from 210.32.39.247: icmp_req=1 ttl=63 time=1.03 ms
+
+--- 210.32.39.247 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.035/1.035/1.035/0.000 ms
+PING 210.32.39.248 (210.32.39.248) 56(84) bytes of data.
+64 bytes from 210.32.39.248: icmp_req=1 ttl=63 time=1.35 ms
+
+--- 210.32.39.248 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.359/1.359/1.359/0.000 ms
+PING 210.32.39.249 (210.32.39.249) 56(84) bytes of data.
+64 bytes from 210.32.39.249: icmp_req=1 ttl=63 time=0.949 ms
+
+--- 210.32.39.249 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.949/0.949/0.949/0.000 ms
+PING 210.32.39.250 (210.32.39.250) 56(84) bytes of data.
+64 bytes from 210.32.39.250: icmp_req=1 ttl=63 time=2.22 ms
+
+--- 210.32.39.250 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.222/2.222/2.222/0.000 ms
+PING 210.32.39.251 (210.32.39.251) 56(84) bytes of data.
+64 bytes from 210.32.39.251: icmp_req=1 ttl=254 time=1.50 ms
+
+--- 210.32.39.251 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.500/1.500/1.500/0.000 ms
+PING 210.32.39.252 (210.32.39.252) 56(84) bytes of data.
+
+--- 210.32.39.252 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.253 (210.32.39.253) 56(84) bytes of data.
+
+--- 210.32.39.253 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 210.32.39.254 (210.32.39.254) 56(84) bytes of data.
+64 bytes from 210.32.39.254: icmp_req=1 ttl=254 time=0.712 ms
+
+--- 210.32.39.254 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.712/0.712/0.712/0.000 ms
